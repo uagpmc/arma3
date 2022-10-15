@@ -1,0 +1,22 @@
+	<?xml version="1.0"?>
+	<!DOCTYPE squad SYSTEM "squad.dtd">
+	<?xml-stylesheet href="squad.xsl" type="text/xsl"?>
+	<squad nick="UAG">
+		<name>Unnamed Arma Group</name>
+		<email>UAG.Pmc@Unnamed.com</email>
+		<web>www.uagpmc.com</web>
+		<picture>logo.paa</picture>
+		<title>Unnamed Arma Group</title>
+	<member id="76561198117470304" nick="Hanz">
+		<name>Nick</name>
+		<email>Hanz@Unnamed.com</email>
+		<icq>-</icq>
+		<remark>Commiting Tewwoism</remark>
+	</member>
+	<member id="76561198117470304" nick="H">
+		<name>Nick</name>
+		<email>Hanz@Unnamed.com</email>
+		<icq>-</icq>
+		<remark>Commiting Tewwoism</remark>
+	</member>
+	</squad><!-- closing squad -->
