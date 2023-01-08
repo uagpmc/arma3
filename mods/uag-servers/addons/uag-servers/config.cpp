@@ -22,8 +22,8 @@ class RscDisplayMain: RscStandardDisplay {
                 class ServerBrowser;
                 class JoinMainServer: ServerBrowser {
                     idc = -1;
-                    text = "UAG: LiberationPlus";
-                    tooltip = "Connect to UAG LiberationPlus Server";
+                    text = "UAG Ops Server";
+                    tooltip = "Connect to the UAG Ops Server";
                     y = "(3 * 	1.5) * 	(pixelH * pixelGrid * 2) + 	(pixelH)";
                     onbuttonclick = "connectToServer ['198.244.229.201', 2312, '']";
                 };
