@@ -1,4 +1,5 @@
-url_fetch_callback = {
+// get them functions
+uag_fnc_libUrlFetch = {
     if (isNil "url_fetch_queue") then {
         url_fetch_queue = [_this];
         {
@@ -36,22 +37,32 @@ url_fetch_callback = {
     };
 };
 
-uag_loadout = {
+uag_fnc_getLoadout = {
     _loadout_id = _this;
 
     0 = [
         "https://api.uagpmc.com/loadouts/uag/" + _loadout_id + ".sqf",
         {call (compile (_this select 1))} 
-    ] spawn url_fetch_callback;
+    ] spawn uag_fnc_libUrlFetch;
 };
 
-0 = [
-    "https://api.uagpmc.com/loadouts/uag.txt",
-    {uag_public_loadouts = (_this select 1) splitString ",";} 
-] spawn url_fetch_callback;
+// our main interval loop every 10 seconds
+0 = [] spawn {
+  while {true} do {
+    // get our loadouts from the api
+    0 = [
+        "https://api.uagpmc.com/loadouts/uag.txt",
+        {uag_public_loadouts = (_this select 1) splitString ",";} 
+    ] spawn uag_fnc_libUrlFetch;
 
+    sleep 10;
+  }
+};
+
+// add arsenal to arsenal box
 [arsenal_box, true] call ace_arsenal_fnc_initBox;
 
+// prep loadouts action
 uag_loadouts_ace_action = [
     "UAGLoadouts",
     "UAG Loadouts",
@@ -71,7 +82,7 @@ uag_loadouts_ace_action = [
                 _x,
                 "",
                 {
-                    _this select 2 spawn uag_loadout;
+                    _this select 2 spawn uag_fnc_getLoadout;
                 },
                 {true},
                 {},
@@ -85,4 +96,5 @@ uag_loadouts_ace_action = [
     }
 ] call ace_interact_menu_fnc_createAction;
 
+// add loadouts action to arsenal box
 [arsenal_box, 0, ["ACE_MainActions"], uag_loadouts_ace_action] call ace_interact_menu_fnc_addActionToObject;
