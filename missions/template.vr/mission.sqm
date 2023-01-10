@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={79.143616,12.427966,90.453873};
-		dir[]={0.84497583,-0.50665015,-0.17136113};
-		up[]={0.49655846,0.86214554,-0.10070274};
-		aside[]={-0.19875951,1.7453567e-007,-0.98007101};
+		pos[]={87.29007,8.9869881,83.703064};
+		dir[]={0.64199674,-0.45629409,0.61614615};
+		up[]={0.32920852,0.88982904,0.31595266};
+		aside[]={0.69243205,1.4901161e-008,-0.72148329};
 	};
 };
 binarizationWanted=0;
@@ -441,7 +441,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call ace_arsenal_fnc_initBox;";
+				name="arsenal_box";
 			};
 			id=58;
 			type="C_IDAP_supplyCrate_F";
