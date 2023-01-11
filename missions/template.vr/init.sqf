@@ -38,10 +38,10 @@ uag_fnc_libUrlFetch = {
 };
 
 uag_fnc_getLoadout = {
-    _loadout_id = _this;
+    params ["_category_id", "_loadout_id"];
 
     0 = [
-        "https://api.uagpmc.com/loadouts/uag/" + _loadout_id + ".sqf",
+        "https://api.uagpmc.com/loadouts/" + _category_id + "/" + _loadout_id + ".sqf",
         {call (compile (_this select 1))} 
     ] spawn uag_fnc_libUrlFetch;
 };
@@ -82,7 +82,7 @@ uag_loadouts_ace_action = [
                 _x,
                 "",
                 {
-                    _this select 2 spawn uag_fnc_getLoadout;
+                    ["uag", _this select 2] spawn uag_fnc_getLoadout;
                 },
                 {true},
                 {},
@@ -91,6 +91,37 @@ uag_loadouts_ace_action = [
 
             _actions pushBack [_action, [], _target];
         } forEach uag_public_loadouts;
+
+        _customLoadoutAction = [
+            "custom",
+            "custom",
+            "",
+            {
+                [
+                    "Custom Loadout",
+                    [
+                        [
+                            "EDIT",
+                            "Loadout",
+                            [
+                                "uag/rifleman"
+                            ],
+                            true
+                        ]
+                    ],
+                    {
+                        _diagResult = _this select 0 select 0;
+                        
+                        (_diagResult splitString "/") spawn uag_fnc_getLoadout;
+                    }
+                ] call zen_dialog_fnc_create;
+            },
+            {true},
+            {},
+            "custom"
+        ] call ace_interact_menu_fnc_createAction;
+
+        _actions pushBack [_customLoadoutAction, [], _target];
 
         _actions;
     }
