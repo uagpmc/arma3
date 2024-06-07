@@ -1,9 +1,9 @@
 class CfgPatches {
-    class uag_servers {
+    class uagpmc_servers {
         authors[] = {"uagpmc","zuedev"};
         authorUrl = "https://uagpmc.com";
-        name = "uag_servers";
-        requiredVersion = 2.02;
+        name = "uagpmc_servers";
+        requiredVersion = 2.16;
         requiredAddons[] = {"ace_common"};
         weapons[] = {};
         units[] = {};

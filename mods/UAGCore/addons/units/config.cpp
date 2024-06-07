@@ -1,3 +1,5 @@
+// I feel like this PBO should be replaced by the other UAGUnits PBO Instead - Fluffy
+
 class CfgPatches {
     class uag_units {
         authors[] = {"uagpmc.com", "zuedev"};

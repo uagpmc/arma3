@@ -1,11 +1,11 @@
 class CfgPatches {
-    class uag_core {
+    class uagpmc_core {
         authors[] = {"uagpmc","zuedev"};
         authorUrl = "https://uagpmc.com";
-        name = "uag_core";
+        name = "uagpmc_core";
         requiredAddons[] = {};
-        requiredVersion = 2.02;
+        requiredVersion = 2.16;
         units[] = {};
         weapons[] = {};
-    }
-}
+    };
+};
