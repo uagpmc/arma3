@@ -251,7 +251,7 @@ class CfgVehicles {
         crew = "UAGPMC_Contractor";
         displayName = "Qilin (Metis)";
         faction = "UAG";
-        hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa","\uagunits\data\Vorona_F_CO.paa","\uagunits\data\Vorona_F_CO.paa"};
+        hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa","\uagpmc_uagunits\data\Vorona_F_CO.paa","\uagpmc_uagunits\data\Vorona_F_CO.paa"};
         maxSpeed = 240;
         peakTorque = 1200;
         scope = 2;
@@ -269,7 +269,7 @@ class CfgVehicles {
         crew = "UAGPMC_Contractor";
         displayName = "Ifrit (HMG)";
         faction = "UAG";
-        hiddenSelectionsTextures[] = {"\uagunits\data\MRAP_02_ext_01_CO.paa","\uagunits\data\MRAP_02_ext_02_CO.paa","\uagunits\data\turret_opfor_co.paa"};
+        hiddenSelectionsTextures[] = {"\uagpmc_uagunits\data\MRAP_02_ext_01_CO.paa","uagpmc_uagunits\data\MRAP_02_ext_02_CO.paa","uagpmc_uagunits\data\turret_opfor_co.paa"};
         maxSpeed = 180;
         peakTorque = 3000;
         side = 1;
@@ -286,7 +286,7 @@ class CfgVehicles {
         crew = "UAGPMC_Contractor";
         displayName = "M2A4 Slammer UP";
         faction = "UAG";
-        hiddenSelectionsTextures[] = {"\uagunits\data\MBT_01_body_CO.paa","\uagunits\data\MBT_01_tow_CO.paa","\uagunits\data\mbt_addons_co.paa","\uagunits\data\camonet_NATO_Desert_CO.paa"};
+        hiddenSelectionsTextures[] = {"\uagpmc_uagunits\data\MBT_01_body_CO.paa","uagpmc_uagunits\data\MBT_01_tow_CO.paa","uagpmc_uagunits\data\mbt_addons_co.paa","uagpmc_uagunits\data\camonet_NATO_Desert_CO.paa"};
         maxSpeed = 140;
         peakTorque = 7000;
         side = 1;
@@ -302,7 +302,7 @@ class CfgVehicles {
         crew = "UAGPMC_Contractor";
         displayName = "T-140K Armata (30mm)";
         faction = "UAG";
-        hiddenSelectionsTextures[] = {"\uagunits\data\MBT_04_exterior_brown_hex_1_CO.paa","\uagunits\data\MBT_04_exterior_brown_hex_2_CO.paa","\uagunits\data\camonet_CSAT_HEX_Desert_CO.paa"};
+        hiddenSelectionsTextures[] = {"\uagpmc_uagunits\data\MBT_04_exterior_brown_hex_1_CO.paa","uagpmc_uagunits\data\MBT_04_exterior_brown_hex_2_CO.paa","uagpmc_uagunits\data\camonet_CSAT_HEX_Desert_CO.paa"};
         maxSpeed = 120;
         peakTorque = 6500;
         side = 1;
