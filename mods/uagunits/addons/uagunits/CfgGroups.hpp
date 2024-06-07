@@ -6,7 +6,7 @@ class CfgGroups {
             class Wolfpack {
                 name = "Wolfpack";
 
-                class UAG_Wolfpack_Actual {
+                class UAGPMC_Wolfpack_Actual {
                     name = "Actual (Command)";
                     faction = "UAG";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -26,7 +26,7 @@ class CfgGroups {
                     };
                 };
 
-                class UAG_Wolfpack_Charlie {
+                class UAGPMC_Wolfpack_Charlie {
                     name = "Charlie (Base-of-Fire)";
                     faction = "UAG";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -67,7 +67,7 @@ class CfgGroups {
                     };
                 };
 
-                class UAG_Wolfpack_Delta {
+                class UAGPMC_Wolfpack_Delta {
                     name = "Delta (Assault)";
                     faction = "UAG";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -112,7 +112,7 @@ class CfgGroups {
             class Sabre {
                 name = "Sabre";
 
-                class UAG_Sabre_Actual {
+                class UAGPMC_Sabre_Actual {
                     name = "Actual (Command)";
                     faction = "UAG";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -132,7 +132,7 @@ class CfgGroups {
                     };
                 };
 
-                class UAG_Sabre_Charlie {
+                class UAGPMC_Sabre_Charlie {
                     name = "Charlie (Weapons)";
                     faction = "UAG";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -173,7 +173,7 @@ class CfgGroups {
                     };
                 };
 
-                class UAG_Sabre_Delta {
+                class UAGPMC_Sabre_Delta {
                     name = "Delta (Assault)";
                     faction = "UAG";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";

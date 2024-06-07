@@ -1,16 +1,16 @@
 class CfgPatches {
-    class uagunits {
+    class uagpmc_uagunits {
         name = "uagunits";
         units[] = {
-            "UAG_Survivor",
-            "UAG_Contractor",
-            "UAG_Autorifleman",
-            "UAG_Machinegunner",
-            "UAG_Pointman",
-            "UAG_Corpsman",
-            "UAG_Medic",
-            "UAG_Teamleader",
-            "UAG_SectionCommander",
+            "UAGPMC_Survivor",
+            "UAGPMC_Contractor",
+            "UAGPMC_Autorifleman",
+            "UAGPMC_Machinegunner",
+            "UAGPMC_Pointman",
+            "UAGPMC_Corpsman",
+            "UAGPMC_Medic",
+            "UAGPMC_Teamleader",
+            "UAGPMC_SectionCommander",
         };
         requiredAddons[] = {
             "A3_weapons_f_exp",

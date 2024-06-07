@@ -15,7 +15,7 @@ class CfgWeapons {
         scope = 0;
         class ItemInfo;
     };
-    class UAG_Combat_Fatigues: Rainman_Combat_Fatigues_Splinter_Urban_PROXY {
+    class UAGPMC_Combat_Fatigues: Rainman_Combat_Fatigues_Splinter_Urban_PROXY {
         scope = 2;
         displayName = "UAG Combat Fatigues";
 
@@ -30,7 +30,7 @@ class CfgWeapons {
         scope = 0;
         class ItemInfo;
     };
-    class UAG_Combat_Fatigues_2: Rainman_Combat_Fatigues_Splinter_Urban_2_PROXY {
+    class UAGPMC_Combat_Fatigues_2: Rainman_Combat_Fatigues_Splinter_Urban_2_PROXY {
         scope = 2;
         displayName = "UAG Combat Fatigues 2";
 
@@ -45,7 +45,7 @@ class CfgWeapons {
         scope = 0;
         class ItemInfo;
     };
-    class UAG_Plate_Carrier_Light: V_PlateCarrier1_blk_PROXY {
+    class UAGPMC_Plate_Carrier_Light: V_PlateCarrier1_blk_PROXY {
         scope = 2;
         displayName = "UAG Plate Carrier - Light";
 
@@ -78,7 +78,7 @@ class CfgWeapons {
         scope = 0;
         class ItemInfo;
     };
-    class UAG_Plate_Carrier_Medium: V_PlateCarrier2_blk_PROXY {
+    class UAGPMC_Plate_Carrier_Medium: V_PlateCarrier2_blk_PROXY {
         scope = 2;
         displayName = "UAG Plate Carrier - Medium";
 
@@ -111,7 +111,7 @@ class CfgWeapons {
         scope = 0;
         class ItemInfo;
     };
-    class UAG_Plate_Carrier_Heavy: V_PlateCarrierSpec_blk_PROXY {
+    class UAGPMC_Plate_Carrier_Heavy: V_PlateCarrierSpec_blk_PROXY {
         scope = 2;
         displayName = "UAG Plate Carrier - Heavy";
 
@@ -152,7 +152,7 @@ class CfgWeapons {
         scope = 0;
         class ItemInfo;
     };
-    class UAG_Combat_Helmet_Light: Rainman_HelmetB_Light_Splinter_Urban_PROXY {
+    class UAGPMC_Combat_Helmet_Light: Rainman_HelmetB_Light_Splinter_Urban_PROXY {
         scope = 2;
         displayName = "UAG Combat Helmet - Light";
         subItems[] = { "Integrated_NVG_F" };
@@ -178,7 +178,7 @@ class CfgWeapons {
         scope = 0;
         class ItemInfo;
     };
-    class UAG_Combat_Helmet_Medium: Rainman_HelmetIA_Splinter_Urban_PROXY {
+    class UAGPMC_Combat_Helmet_Medium: Rainman_HelmetIA_Splinter_Urban_PROXY {
         scope = 2;
         displayName = "UAG Combat Helmet - Medium";
         subItems[] = { "Integrated_NVG_F" };
@@ -204,7 +204,7 @@ class CfgWeapons {
         scope = 0;
         class ItemInfo;
     };
-    class UAG_Combat_Helmet_Heavy: H_HelmetB_TI_tna_F_PROXY {
+    class UAGPMC_Combat_Helmet_Heavy: H_HelmetB_TI_tna_F_PROXY {
         scope = 2;
         displayName = "UAG Combat Helmet - Heavy";
         subItems[] = { "Integrated_NVG_F" };
@@ -230,12 +230,12 @@ class CfgWeapons {
     };
 
     class arifle_MSBS65_black_f;
-    class UAG_MSBS65v2: arifle_MSBS65_black_f {
+    class UAGPMC_MSBS65v2: arifle_MSBS65_black_f {
         displayName = "UAG MSBS65v2";
-        baseWeapon = "UAG_MSBS65v2";
+        baseWeapon = "UAGPMC_MSBS65v2";
     };
 
-    class UAG_MSBS65v2_ModularSight: UAG_MSBS65v2 {
+    class UAGPMC_MSBS65v2_ModularSight: UAG_MSBS65v2 {
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
@@ -245,12 +245,12 @@ class CfgWeapons {
     };
 
     class arifle_MSBS65_UBS_black_F;
-    class UAG_MSBS65v2_UBS: arifle_MSBS65_UBS_black_F {
+    class UAGPMC_MSBS65v2_UBS: arifle_MSBS65_UBS_black_F {
         displayName = "UAG MSBS65v2 (UBS)";
-        baseWeapon = "UAG_MSBS65v2_UBS";
+        baseWeapon = "UAGPMC_MSBS65v2_UBS";
     };
 
-    class UAG_MSBS65v2_UBS_Holo: UAG_MSBS65v2_UBS {
+    class UAGPMC_MSBS65v2_UBS_Holo: UAG_MSBS65v2_UBS {
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
@@ -260,12 +260,12 @@ class CfgWeapons {
     };
 
     class arifle_MSBS65_GL_black_F;
-    class UAG_MSBS65v2_GL: arifle_MSBS65_GL_black_F {
+    class UAGPMC_MSBS65v2_GL: arifle_MSBS65_GL_black_F {
         displayName = "UAG MSBS65v2 (GL)";
-        baseWeapon = "UAG_MSBS65v2_GL";
+        baseWeapon = "UAGPMC_MSBS65v2_GL";
     };
     
-    class UAG_MSBS65v2_GL_ModularSight: UAG_MSBS65v2_GL {
+    class UAGPMC_MSBS65v2_GL_ModularSight: UAG_MSBS65v2_GL {
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
@@ -275,12 +275,12 @@ class CfgWeapons {
     };
 
     class srifle_DMR_03_F;
-    class UAG_SIG556: srifle_DMR_03_F {
+    class UAGPMC_SIG556: srifle_DMR_03_F {
         displayName = "UAG SIG556";
-        baseWeapon = "UAG_SIG556";
+        baseWeapon = "UAGPMC_SIG556";
     };
     
-    class UAG_SIG556_Pitbull: UAG_SIG556 {
+    class UAGPMC_SIG556_Pitbull: UAG_SIG556 {
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
@@ -290,12 +290,12 @@ class CfgWeapons {
     };
 
     class srifle_LRR_F;
-    class UAG_M200: srifle_LRR_F {
+    class UAGPMC_M200: srifle_LRR_F {
         displayName = "UAG SIG556";
-        baseWeapon = "UAG_SIG556";
+        baseWeapon = "UAGPMC_SIG556";
     };
     
-    class UAG_M200_LRPS: UAG_M200 {
+    class UAGPMC_M200_LRPS: UAG_M200 {
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
