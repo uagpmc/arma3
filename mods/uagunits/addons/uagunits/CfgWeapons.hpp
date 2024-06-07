@@ -38,7 +38,7 @@ class CfgWeapons {
             containerClass = "Supply80";
             mass = 20;
         };
-    }
+    };
 
     class V_PlateCarrier1_blk;
     class V_PlateCarrier1_blk_PROXY: V_PlateCarrier1_blk {
