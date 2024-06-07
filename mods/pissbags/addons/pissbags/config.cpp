@@ -1,3 +1,7 @@
+// I took the liberty of changing the Prefix to UAGPMC
+// It can be anything else but for the moment that's what I'm using
+// - Fluffy
+
 class CfgPatches {
     class uagpmc_pissbags {
         name = "pissbags";
