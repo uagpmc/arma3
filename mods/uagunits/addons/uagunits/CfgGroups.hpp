@@ -1,110 +1,110 @@
 class CfgGroups {
     class West {
-        class UAG {
-            name = "UAG";
+        class UAGPMC {
+            name = "UAGPMC";
 
             class Wolfpack {
                 name = "Wolfpack";
 
                 class UAGPMC_Wolfpack_Actual {
                     name = "Actual (Command)";
-                    faction = "UAG";
+                    faction = "UAGPMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_SectionCommander";
+                        vehicle = "UAGPMC_SectionCommander";
                     };
 
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Medic";
+                        vehicle = "UAGPMC_Medic";
                     };
                 };
 
                 class UAGPMC_Wolfpack_Charlie {
                     name = "Charlie (Base-of-Fire)";
-                    faction = "UAG";
+                    faction = "UAGPMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Teamleader";
+                        vehicle = "UAGPMC_Teamleader";
                     };
 
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Corpsman";
+                        vehicle = "UAGPMC_Corpsman";
                     };
 
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Marksman";
+                        vehicle = "UAGPMC_Marksman";
                     };
 
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Autorifleman";
+                        vehicle = "UAGPMC_Autorifleman";
                     };
 
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_BitchBoy";
+                        vehicle = "UAGPMC_BitchBoy";
                     };
                 };
 
                 class UAGPMC_Wolfpack_Delta {
                     name = "Delta (Assault)";
-                    faction = "UAG";
+                    faction = "UAGPMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Teamleader";
+                        vehicle = "UAGPMC_Teamleader";
                     };
 
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Corpsman";
+                        vehicle = "UAGPMC_Corpsman";
                     };
 
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Pointman";
+                        vehicle = "UAGPMC_Pointman";
                     };
 
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Raider";
+                        vehicle = "UAGPMC_Raider";
                     };
 
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Contractor";
+                        vehicle = "UAGPMC_Contractor";
                     };
                 };
             };
@@ -114,103 +114,103 @@ class CfgGroups {
 
                 class UAGPMC_Sabre_Actual {
                     name = "Actual (Command)";
-                    faction = "UAG";
+                    faction = "UAGPMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_SectionCommander";
+                        vehicle = "UAGPMC_SectionCommander";
                     };
 
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Medic";
+                        vehicle = "UAGPMC_Medic";
                     };
                 };
 
                 class UAGPMC_Sabre_Charlie {
                     name = "Charlie (Weapons)";
-                    faction = "UAG";
+                    faction = "UAGPMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Teamleader";
+                        vehicle = "UAGPMC_Teamleader";
                     };
 
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Corpsman";
+                        vehicle = "UAGPMC_Corpsman";
                     };
 
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Sniper";
+                        vehicle = "UAGPMC_Sniper";
                     };
 
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Machinegunner";
+                        vehicle = "UAGPMC_Machinegunner";
                     };
 
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_BitchBoy";
+                        vehicle = "UAGPMC_BitchBoy";
                     };
                 };
 
                 class UAGPMC_Sabre_Delta {
                     name = "Delta (Assault)";
-                    faction = "UAG";
+                    faction = "UAGPMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Teamleader";
+                        vehicle = "UAGPMC_Teamleader";
                     };
 
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Corpsman";
+                        vehicle = "UAGPMC_Corpsman";
                     };
 
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Pointman";
+                        vehicle = "UAGPMC_Pointman";
                     };
 
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Raider";
+                        vehicle = "UAGPMC_Raider";
                     };
 
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "UAG_Grenadier";
+                        vehicle = "UAGPMC_Grenadier";
                     };
                 };
             };

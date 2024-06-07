@@ -7,7 +7,7 @@ class CfgVehicles {
     class B_Survivor_F;
     class UAGPMC_Survivor: B_Survivor_F {
         displayName = "Survivor";
-        faction = "UAG";
+        faction = "UAGPMC";
         linkedItems[] = {
             commonLinkedItems
         };
@@ -206,7 +206,7 @@ class CfgVehicles {
         canFloat = 1;
         crew = "UAGPMC_Contractor";
         displayName = "Offroad (Comms)";
-        faction = "UAG";
+        faction = "UAGPMC";
         peakTorque = 800;
         side = 1;
         waterResistanceCoef = 0.025;
@@ -220,7 +220,7 @@ class CfgVehicles {
         canFloat = 1;
         crew = "UAGPMC_Contractor";
         displayName = "Offroad (Covered)";
-        faction = "UAG";
+        faction = "UAGPMC";
         peakTorque = 800;
         side = 1;
         waterResistanceCoef = 0.025;
@@ -234,7 +234,7 @@ class CfgVehicles {
         canFloat = 1;
         crew = "UAGPMC_Contractor";
         displayName = "Qilin (M134)";
-        faction = "UAG";
+        faction = "UAGPMC";
         maxSpeed = 240;
         peakTorque = 1200;
         scope = 2;
@@ -250,7 +250,7 @@ class CfgVehicles {
         canFloat = 1;
         crew = "UAGPMC_Contractor";
         displayName = "Qilin (Metis)";
-        faction = "UAG";
+        faction = "UAGPMC";
         hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa","\uagpmc_uagunits\data\Vorona_F_CO.paa","\uagpmc_uagunits\data\Vorona_F_CO.paa"};
         maxSpeed = 240;
         peakTorque = 1200;
@@ -268,7 +268,7 @@ class CfgVehicles {
         canFloat = 1;
         crew = "UAGPMC_Contractor";
         displayName = "Ifrit (HMG)";
-        faction = "UAG";
+        faction = "UAGPMC";
         hiddenSelectionsTextures[] = {"\uagpmc_uagunits\data\MRAP_02_ext_01_CO.paa","uagpmc_uagunits\data\MRAP_02_ext_02_CO.paa","uagpmc_uagunits\data\turret_opfor_co.paa"};
         maxSpeed = 180;
         peakTorque = 3000;
@@ -285,7 +285,7 @@ class CfgVehicles {
         canFloat = 1;
         crew = "UAGPMC_Contractor";
         displayName = "M2A4 Slammer UP";
-        faction = "UAG";
+        faction = "UAGPMC";
         hiddenSelectionsTextures[] = {"\uagpmc_uagunits\data\MBT_01_body_CO.paa","uagpmc_uagunits\data\MBT_01_tow_CO.paa","uagpmc_uagunits\data\mbt_addons_co.paa","uagpmc_uagunits\data\camonet_NATO_Desert_CO.paa"};
         maxSpeed = 140;
         peakTorque = 7000;
@@ -301,7 +301,7 @@ class CfgVehicles {
         canFloat = 1;
         crew = "UAGPMC_Contractor";
         displayName = "T-140K Armata (30mm)";
-        faction = "UAG";
+        faction = "UAGPMC";
         hiddenSelectionsTextures[] = {"\uagpmc_uagunits\data\MBT_04_exterior_brown_hex_1_CO.paa","uagpmc_uagunits\data\MBT_04_exterior_brown_hex_2_CO.paa","uagpmc_uagunits\data\camonet_CSAT_HEX_Desert_CO.paa"};
         maxSpeed = 120;
         peakTorque = 6500;
@@ -316,7 +316,7 @@ class CfgVehicles {
         armorStructural = 8;
         crew = "UAGPMC_Contractor";
         displayName = "PO-30 Orca (Unarmed)";
-        faction = "UAG";
+        faction = "UAGPMC";
         maxSpeed = 400;
         side = 1;
     };
