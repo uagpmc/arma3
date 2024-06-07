@@ -1,11 +1,11 @@
 class CfgPatches {
-    class uag_halo_ops {
+    class uagpmc_modern_ops {
         authors[] = {"uagpmc","zuedev"};
         authorUrl = "https://uagpmc.com";
-        name = "uag_halo_ops";
+        name = "uagpmc_modern_ops";
         requiredAddons[] = {};
-        requiredVersion = 2.02;
+        requiredVersion = 2.16;
         units[] = {};
         weapons[] = {};
-    }
-}
+    };
+};
