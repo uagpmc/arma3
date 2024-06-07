@@ -235,7 +235,7 @@ class CfgWeapons {
         baseWeapon = "UAGPMC_MSBS65v2";
     };
 
-    class UAGPMC_MSBS65v2_ModularSight: UAG_MSBS65v2 {
+    class UAGPMC_MSBS65v2_ModularSight: UAGPMC_MSBS65v2 {
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
@@ -250,7 +250,7 @@ class CfgWeapons {
         baseWeapon = "UAGPMC_MSBS65v2_UBS";
     };
 
-    class UAGPMC_MSBS65v2_UBS_Holo: UAG_MSBS65v2_UBS {
+    class UAGPMC_MSBS65v2_UBS_Holo: UAGPMC_MSBS65v2_UBS {
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
@@ -265,7 +265,7 @@ class CfgWeapons {
         baseWeapon = "UAGPMC_MSBS65v2_GL";
     };
     
-    class UAGPMC_MSBS65v2_GL_ModularSight: UAG_MSBS65v2_GL {
+    class UAGPMC_MSBS65v2_GL_ModularSight: UAGPMC_MSBS65v2_GL {
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
@@ -280,7 +280,7 @@ class CfgWeapons {
         baseWeapon = "UAGPMC_SIG556";
     };
     
-    class UAGPMC_SIG556_Pitbull: UAG_SIG556 {
+    class UAGPMC_SIG556_Pitbull: UAGPMC_SIG556 {
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
@@ -295,7 +295,7 @@ class CfgWeapons {
         baseWeapon = "UAGPMC_SIG556";
     };
     
-    class UAGPMC_M200_LRPS: UAG_M200 {
+    class UAGPMC_M200_LRPS: UAGPMC_M200 {
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
