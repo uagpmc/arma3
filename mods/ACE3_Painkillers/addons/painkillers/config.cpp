@@ -25,7 +25,7 @@ class CfgWeapons
         descriptionShort = "Used to Treat Pain";
         descriptionUse = "Tablets used to cure Slight Pain, 1 out of 10 Operators Recommend!";
         hiddenSelections[] = {"camo"};
-        hiddenSelectionsTextures[] = {"\painkillers\data\Painkiller_ca.paa"};
+        hiddenSelectionsTextures[] = {"\painkillers\data\painkiller_ca.paa"};
         
         class ItemInfo: CBA_MiscItem_ItemInfo 
         {
