@@ -20,12 +20,12 @@ class CfgWeapons
     {
         displayName = "Painkiller";
         author = "Fluffy";
-        model = "\uagpmc_painbegone\data\Painkiller.p3d";
-        picture = "\uagpmc_painbegone\data\PainkillerIcon_ca.paa";
+        model = "\painkillers\data\Painkiller.p3d";
+        picture = "\painkillers\data\PainkillerIcon_ca.paa";
         descriptionShort = "Used to Treat Pain";
         descriptionUse = "Tablets used to cure Slight Pain, 1 out of 10 Operators Recommend!";
         hiddenSelections[] = {"camo"};
-        hiddenSelectionsTextures[] = {"\uagpmc_painbegone\data\Painkiller_ca.paa"};
+        hiddenSelectionsTextures[] = {"\painkillers\data\Painkiller_ca.paa"};
         
         class ItemInfo: CBA_MiscItem_ItemInfo 
         {
