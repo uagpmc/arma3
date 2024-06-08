@@ -1,0 +1,13 @@
+name = "UAG Erapack: Modern"
+prefix = "UAG_Erapack_Modern"
+mainprefix = "z"
+
+[version]
+major = 0
+minor = 0
+patch = 0
+git_hash = 8
+
+[properties]
+author = "UAG Development Team"
+url = "https://github.com/UnnamedArmaGroupHub/arma3"

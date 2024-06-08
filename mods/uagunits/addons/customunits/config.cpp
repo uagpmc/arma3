@@ -1,7 +1,0 @@
-#include "macros.hpp"
-#include "CfgPatches.hpp"
-#include "CfgWeapons.hpp"
-#include "CfgGlasses.hpp"
-#include "CfgFactionClasses.hpp"
-#include "CfgVehicles.hpp"
-#include "CfgGroups.hpp"
