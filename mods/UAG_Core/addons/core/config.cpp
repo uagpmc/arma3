@@ -1,8 +1,8 @@
 class CfgPatches {
-    class uagpmc_core {
-        authors[] = {"uagpmc","zuedev"};
+    class core {
+        authors[] = {"zuedev"};
         authorUrl = "https://uagpmc.com";
-        name = "uagpmc_core";
+        name = "core";
         requiredAddons[] = {};
         requiredVersion = 2.16;
         units[] = {};
