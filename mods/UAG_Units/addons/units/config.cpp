@@ -21,7 +21,6 @@ class CfgWeapons {
     // Based on: H_HelmetB_TI_tna_F
     // Changes:
     // - Perfect hearing protection
-    // - Integrated NVG + TI
     // - Half weight
     // - Double armour hitpoints
     // - 5% pass-through
@@ -36,7 +35,6 @@ class CfgWeapons {
         _generalMacro = "UAG_Combat_Helmet_Heavy";
         scope = 2;
         displayName = "UAG Combat Helmet - Heavy";
-        subItems[] = {"Integrated_NVG_TI_1_F"};
         hiddenSelectionsTextures[] = {"z\UAG_Units\addons\units\data\h_helmetb_ti_tna_f_co_uag.paa"};
         picture = "z\UAG_Units\addons\units\data\icon_h_helmetb_ti_tna_f_ca_uag.paa";
 
