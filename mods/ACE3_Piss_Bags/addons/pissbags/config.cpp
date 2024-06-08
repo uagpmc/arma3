@@ -1,13 +1,9 @@
-// I took the liberty of changing the Prefix to UAGPMC
-// It can be anything else but for the moment that's what I'm using
-// - Fluffy
-
 class CfgPatches {
-    class uagpmc_pissbags {
+    class pissbags {
         name = "pissbags";
         units[] = {};
         requiredAddons[] = {"ace_medical_treatment"};
-        authors[] = {"uagpmc.com", "zuedev", "Fluffy"};
+        authors[] = {"zuedev", "Fluffy"};
         authorUrl = "https://uagpmc.com";
     };
 };
@@ -22,11 +18,13 @@ class CfgWeapons {
         picture = "\uagpmc_pissbags\pissiv.paa";
         hiddenSelectionsTextures[] = {"\uagpmc_pissbags\Pissbag_ca.paa"};
     };
+    
     class UAGPMC_pissIV_500: ACE_bloodIV_500 {
         displayName = "Piss Bag (500ml)";
         picture = "\uagpmc_pissbags\pissiv.paa";
         hiddenSelectionsTextures[] = {"\uagpmc_pissbags\Pissbag_ca.paa"};
     };
+
     class UAGPMC_pissIV_250: ACE_bloodIV_250 {
         displayName = "Piss Bag (250ml)";
         picture = "\uagpmc_pissbags\pissiv.paa";

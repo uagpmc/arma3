@@ -1,14 +1,10 @@
-// I took the liberty of changing the Prefix to UAGPMC
-// It can be anything else but for the moment that's what I'm using
-// - Fluffy
-
 class CfgPatches
 {
-    class uagpmc_painbegone
+    class painkillers
     {
-        authors[] = {"uagpmc","zuedev","fluffy"};
+        authors[] = {"zuedev","fluffy"};
         authorUrl = "https://uagpmc.com";
-        name = "painbegone";
+        name = "painkillers";
         units[] = {};
         weapons[] = {};
         requireAddons[] = {"ace_medical_treatment"};
@@ -19,6 +15,7 @@ class CfgWeapons
 {
     class CBA_MiscItem_ItemInfo;
     class ACE_morphine;
+
     class UAGPMC_Painkiller: ACE_morphine 
     {
         displayName = "Painkiller";
@@ -29,6 +26,7 @@ class CfgWeapons
         descriptionUse = "Tablets used to cure Slight Pain, 1 out of 10 Operators Recommend!";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\uagpmc_painbegone\data\Painkiller_ca.paa"};
+        
         class ItemInfo: CBA_MiscItem_ItemInfo 
         {
             mass = 0.875;
@@ -41,6 +39,7 @@ class ace_medical_treatment
     class Medication
     {
         class Morphine;
+
         class UAGPMC_Painkiller: Morphine
         {
             painReduce = 0.2;
@@ -59,6 +58,7 @@ class ace_medical_treatment
 class ace_medical_treatment_actions 
 {
     class Morphine;
+
     class UAGPMC_Painkiller: Morphine 
     {
         allowedSelections[] = {"Head"};
