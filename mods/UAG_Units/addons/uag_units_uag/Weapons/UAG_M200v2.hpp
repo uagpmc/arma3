@@ -6,7 +6,7 @@ class CfgWeapons {
         baseWeapon = "UAG_M200v2";
     };
     
-    class UAG_M200v2_LRPS: UAG_M200 {
+    class UAG_M200v2_LRPS: UAG_M200v2 {
         class LinkedItems {
             class LinkedItemsOptic {
                 slot = "CowsSlot";
