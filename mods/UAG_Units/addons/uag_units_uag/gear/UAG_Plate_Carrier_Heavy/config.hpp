@@ -1,3 +1,5 @@
+// TODO: uag textures
+
 class CfgWeapons {
     class V_PlateCarrierSpec_blk;
 
