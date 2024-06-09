@@ -35,7 +35,7 @@ class CfgVehicles {
         };
 
         class Components: Components {
-            class TransportPylonsComponent {
+            class TransportPylonsComponent: TransportPylonsComponent {
                 class Presets: Presets {
                     class Default: Default {
                         attachment[] = {
@@ -46,17 +46,17 @@ class CfgVehicles {
                         };
                     };
                 };
-                class Pylons {
-                    class PylonLeft1 {
+                class Pylons: Pylons {
+                    class PylonLeft1: PylonLeft1 {
                         attachment = "PylonRack_19Rnd_missiles_black_RF";
                     };
-                    class PylonLeft2 {
+                    class PylonLeft2: PylonLeft2 {
                         attachment = "PylonRack_19Rnd_PG_missiles_black_RF";
                     };
-                    class PylonRight1 {
+                    class PylonRight1: PylonRight1 {
                         attachment = "PylonRack_19Rnd_missiles_black_RF";
                     };
-                    class PylonRight2 {
+                    class PylonRight2: PylonRight2 {
                         attachment = "PylonRack_19Rnd_PG_missiles_black_RF";
                     };
                 };
