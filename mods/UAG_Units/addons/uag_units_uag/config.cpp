@@ -20,3 +20,4 @@ class CfgPatches {
 #include "gear/UAG_Combat_Goggles.hpp"
 #include "gear/UAG_Balaclava.hpp"
 #include "gear/UAG_Balaclava_With_Combat_Goggles.hpp"
+#include "gear/UAG_Combat_Helmet_Light.hpp"
