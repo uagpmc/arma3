@@ -12,8 +12,15 @@ class CfgPatches {
         };
         requiredVersion = 2.16;
         units[] = {
-            "UAGPMC_Survivor",
-            "UAGPMC_Contractor"
+            "UAG_Survivor",
+            "UAG_Contractor",
+            "UAG_Grenadier",
+            "UAG_Marksman",
+            "UAG_Autorifleman",
+            "UAG_Machinegunner",
+            "UAG_Sniper",
+            "UAG_Raider",
+            "UAG_Pointman"
         };
         weapons[] = {};
     };
