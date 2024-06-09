@@ -23,8 +23,8 @@ class CfgWeapons {
     class UAG_Plate_Carrier_Light: UAG_Plate_Carrier_Light_PARENTPROXY {
         scope = 2;
         displayName = "UAG Plate Carrier - Light";
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\data\vests_blk_co_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\data\icon_v_platecarrier1_blk_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_Plate_Carrier_Light\vests_blk_co_uag.paa"};
+        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_Plate_Carrier_Light\icon_v_platecarrier1_blk_ca_uag.paa";
 
         class ItemInfo: ItemInfo {
             containerClass = "UAG_Plate_Carrier_Light_ContainerClass";
