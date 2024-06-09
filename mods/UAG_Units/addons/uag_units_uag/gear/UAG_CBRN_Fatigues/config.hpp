@@ -27,9 +27,9 @@ class CfgWeapons {
 };
 
 class CfgVehicles {
-    class B_CTRG_Soldier_urb_1_F;
+    class I_E_CBRN_Man_Oversuit_01_EAF_F;
 
-    class UAG_CBRN_Fatigues_Soldier: B_CTRG_Soldier_urb_1_F {
+    class UAG_CBRN_Fatigues_Soldier: I_E_CBRN_Man_Oversuit_01_EAF_F {
         hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\CBRN_Suit_01_EAF_CO_uag.paa"};
         picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\icon_U_I_E_CBRN_Suit_01_EAF_F_ca_uag.paa";
     };
