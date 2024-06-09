@@ -10,4 +10,4 @@ class CfgWeapons {
         scope = 2;
         displayName = "UAG Plate Carrier - Medium";
     };
-}
+};
