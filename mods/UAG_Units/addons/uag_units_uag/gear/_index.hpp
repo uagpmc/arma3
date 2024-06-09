@@ -10,3 +10,4 @@
 #include "UAG_Combat_Helmet_Medium/config.hpp"
 #include "UAG_Combat_Helmet_Medium_Neckshield/config.hpp"
 #include "UAG_FAST_Helmet/config.hpp"
+#include "UAG_CBRN_Fatigues/config.hpp"
