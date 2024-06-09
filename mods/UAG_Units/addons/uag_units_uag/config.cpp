@@ -6,7 +6,8 @@ class CfgPatches {
         requiredAddons[] = {
             "A3_Characters_F",
             "A3_Characters_F_Exp",
-            "A3_Characters_F_Exp_Headgear"
+            "A3_Characters_F_Exp_Headgear",
+            "A3_Characters_F_Orange_Headgear"
         };
         requiredVersion = 2.16;
         units[] = {};
@@ -21,3 +22,5 @@ class CfgPatches {
 #include "gear/UAG_Balaclava.hpp"
 #include "gear/UAG_Balaclava_With_Combat_Goggles.hpp"
 #include "gear/UAG_Combat_Helmet_Light.hpp"
+#include "gear/UAG_Combat_Helmet_Medium.hpp"
+#include "gear/UAG_Combat_Helmet_Medium_Neckshield.hpp"
