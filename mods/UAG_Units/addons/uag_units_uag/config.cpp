@@ -17,3 +17,4 @@ class CfgPatches {
 #include "gear/UAG_Combat_Fatigues.hpp"
 #include "gear/UAG_Plate_Carrier_Light.hpp"
 #include "gear/UAG_Combat_Helmet_Heavy.hpp"
+#include "gear/UAG_Combat_Goggles.hpp"
