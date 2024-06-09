@@ -11,3 +11,4 @@
 #include "UAG_Combat_Helmet_Medium_Neckshield/config.hpp"
 #include "UAG_FAST_Helmet/config.hpp"
 #include "UAG_CBRN_Fatigues/config.hpp"
+#include "UAG_Track_Suit/config.hpp"
