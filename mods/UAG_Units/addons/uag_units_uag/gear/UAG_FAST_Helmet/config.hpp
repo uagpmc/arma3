@@ -17,8 +17,8 @@ class CfgWeapons {
         _generalMacro = "UAG_FAST_Helmet";
         scope = 2;
         displayName = "UAG FAST Helmet";
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\data\equip1_black_co_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\data\icon_H_HelmetB_light_black_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_FAST_Helmet\equip1_black_co_uag.paa"};
+        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_FAST_Helmet\icon_H_HelmetB_light_black_ca_uag.paa";
 
         class ItemInfo: ItemInfo {
             mass = 0;

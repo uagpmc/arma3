@@ -17,7 +17,7 @@ class CfgWeapons {
         _generalMacro = "UAG_Combat_Helmet_Medium_Neckshield";
         scope = 2;
         displayName = "UAG Combat Helmet - Medium + Neckshield";
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\data\H_PASGT_blue_press_CO_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\data\icon_H_PASGT_neckprot_blue_press_CA_uag.paa";
+        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Medium_Neckshield\H_PASGT_blue_press_CO_uag.paa"};
+        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Medium_Neckshield\icon_H_PASGT_neckprot_blue_press_CA_uag.paa";
     };
 };

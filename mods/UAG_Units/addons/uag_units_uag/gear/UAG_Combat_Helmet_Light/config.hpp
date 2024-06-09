@@ -17,8 +17,8 @@ class CfgWeapons {
         _generalMacro = "UAG_Combat_Helmet_Light";
         scope = 2;
         displayName = "UAG Combat Helmet - Light";
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\data\equip1_black_co_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\data\icon_H_HelmetB_black_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Light\equip1_black_co_uag.paa"};
+        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Light\icon_H_HelmetB_black_ca_uag.paa";
 
         class ItemInfo: ItemInfo {
             mass = 0;

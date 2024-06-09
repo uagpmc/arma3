@@ -17,8 +17,8 @@ class CfgWeapons {
     class UAG_Combat_Fatigues: UAG_Combat_Fatigues_PARENTPROXY {
         scope = 2;
         displayName = "UAG Combat Fatigues";
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\data\clothing1_mtp_urban_co_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\data\icon_U_B_CTRG_Soldier_urb_1_F_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Fatigues\clothing1_mtp_urban_co_uag.paa"};
+        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Fatigues\icon_U_B_CTRG_Soldier_urb_1_F_ca_uag.paa";
 
         class ItemInfo: ItemInfo {
             containerClass = "Supply80";
@@ -32,7 +32,7 @@ class CfgVehicles {
     class B_CTRG_Soldier_urb_1_F;
 
     class UAG_Combat_Fatigues_Soldier: B_CTRG_Soldier_urb_1_F {
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\data\clothing1_mtp_urban_co_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\data\icon_U_B_CTRG_Soldier_urb_1_F_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Fatigues\clothing1_mtp_urban_co_uag.paa"};
+        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Fatigues\icon_U_B_CTRG_Soldier_urb_1_F_ca_uag.paa";
     };
 };
