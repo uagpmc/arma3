@@ -15,12 +15,4 @@ class CfgPatches {
     };
 };
 
-#include "gear/UAG_Combat_Fatigues.hpp"
-#include "gear/UAG_Plate_Carrier_Light.hpp"
-#include "gear/UAG_Combat_Helmet_Heavy.hpp"
-#include "gear/UAG_Combat_Goggles.hpp"
-#include "gear/UAG_Balaclava.hpp"
-#include "gear/UAG_Balaclava_With_Combat_Goggles.hpp"
-#include "gear/UAG_Combat_Helmet_Light.hpp"
-#include "gear/UAG_Combat_Helmet_Medium.hpp"
-#include "gear/UAG_Combat_Helmet_Medium_Neckshield.hpp"
+#include "gear/_index.hpp"
