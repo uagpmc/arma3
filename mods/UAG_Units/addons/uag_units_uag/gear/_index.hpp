@@ -7,3 +7,4 @@
 #include "UAG_Combat_Helmet_Light.hpp"
 #include "UAG_Combat_Helmet_Medium.hpp"
 #include "UAG_Combat_Helmet_Medium_Neckshield.hpp"
+#include "UAG_FAST_Helmet.hpp"
