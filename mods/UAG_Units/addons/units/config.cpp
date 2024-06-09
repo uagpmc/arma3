@@ -4,6 +4,8 @@ class CfgPatches {
         authorUrl = "https://uagpmc.com";
         name = "units";
         requiredAddons[] = {
+            "A3_Characters_F",
+            "A3_Characters_F_Exp",
             "A3_Characters_F_Exp_Headgear"
         };
         requiredVersion = 2.16;
@@ -34,6 +36,7 @@ class CfgWeapons {
 
     // UAG Combat Fatigues
     // Based on: U_B_CTRG_Soldier_urb_1_F
+    // From: A3_Characters_F
     // Changes:
     // - Double storage
     // - Weightless
@@ -59,6 +62,7 @@ class CfgWeapons {
 
     // UAG Plate Carrier - Light
     // Based on: V_PlateCarrier1_blk
+    // From: A3_Characters_F
     // Changes:
     // - Double storage
     // - Quarter weight
@@ -96,6 +100,7 @@ class CfgWeapons {
 
     // UAG Combat Helmet - Heavy
     // Based on: H_HelmetB_TI_tna_F
+    // From: A3_Characters_F_Exp_Headgear
     // Changes:
     // - Perfect hearing protection
     // - Half weight
