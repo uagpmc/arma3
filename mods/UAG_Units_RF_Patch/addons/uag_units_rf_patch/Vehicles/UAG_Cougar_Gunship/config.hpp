@@ -51,8 +51,8 @@ class CfgVehicles {
 
                 class Presets {
                     class HAT {
-                        displayName = "Heavy AT";
-                        attachment[] = {"PylonRack_4Rnd_LG_scalpel","PylonRack_1Rnd_Missile_AGM_01_F","PylonRack_1Rnd_Missile_AGM_01_F","PylonRack_4Rnd_LG_scalpel"};
+                        displayName = "Default";
+                        attachment[] = {"PylonRack_4Rnd_LG_scalpel","PylonWeapon_860Rnd_127x99mm_shells_black_RF","PylonWeapon_860Rnd_127x99mm_shells_black_RF","PylonRack_4Rnd_LG_scalpel"};
                     };
                 };
                 class Pylons {
@@ -64,12 +64,12 @@ class CfgVehicles {
                         UIposition[] = {0.06,0.4};
                     };
                     class PylonLeft2: PylonLeft1 {
-                        attachment = "PylonRack_1Rnd_Missile_AGM_01_F";
+                        attachment = "PylonWeapon_860Rnd_127x99mm_shells_black_RF";
                         priority = 4;
                         UIposition[] = {0.08,0.35};
                     };
                     class PylonRight1: PylonLeft1 {
-                        attachment = "PylonRack_1Rnd_Missile_AGM_01_F";
+                        attachment = "PylonWeapon_860Rnd_127x99mm_shells_black_RF";
                         mirroredMissilePos = 1;
                         UIposition[] = {0.59,0.4};
                     };
