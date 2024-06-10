@@ -2,3 +2,7 @@
 #include "UAG_Moose_Pickup_BASE/config.hpp"
 #include "UAG_Moose_Pickup_Black/config.hpp"
 #include "UAG_Moose_Pickup_Black_Splinter/config.hpp"
+#include "UAG_Moose_Pickup_Comms_BASE/config.hpp"
+#include "UAG_Moose_Pickup_Comms_Black/config.hpp"
+#include "UAG_Moose_Pickup_MMG_BASE/config.hpp"
+#include "UAG_Moose_Pickup_MMG_Black/config.hpp"
