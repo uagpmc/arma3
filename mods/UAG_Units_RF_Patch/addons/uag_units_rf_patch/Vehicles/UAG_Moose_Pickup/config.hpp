@@ -18,6 +18,7 @@ class CfgVehicles {
             "z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Moose_Pickup\pickup_01_launcher_co_uag.paa",
             "z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Moose_Pickup\pickup_01_service_black_co_uag.paa"
         };
+        textureList[] = {};
         crew = "UAG_Contractor";
         faction = "UAG";
         side = 1;

@@ -26,13 +26,13 @@ class CfgVehicles {
             "z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_exterior_03_ldf_co_uag.paa",
             "z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_int_cargo_co_uag.paa"
         };
+        textureList[] = {};
         crew = "UAG_Contractor";
         faction = "UAG";
         side = 1;
 
         class EventHandlers: EventHandlers {
-            // this is a hack to get around issues with the vehicle textures not loading properly
-            postinit = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle; (_this select 0) setObjectTextureGlobal [0, 'z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_exterior_03_ldf_co_uag.paa']; (_this select 0) setObjectTextureGlobal [1, 'z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_int_cargo_co_uag.paa']; (_this select 0) setObjectTextureGlobal [3, 'z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_adds_03_ldf_co_uag.paa']; (_this select 0) setObjectTextureGlobal [4, 'z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_exterior_03_ldf_co_uag.paa']; (_this select 0) setObjectTextureGlobal [5, 'z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_int_cargo_co_uag.paa']; (_this select 0) setWaterLeakiness 0;};";
+            init = "(_this select 0) setWaterLeakiness 0;";
         };
 
         class Components: Components {
