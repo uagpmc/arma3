@@ -5,6 +5,16 @@
  * - ???
  */
 
+class SensorTemplatePassiveRadar;
+class SensorTemplateAntiRadiation;
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
+class SensorTemplateVisual;
+class SensorTemplateMan;
+class SensorTemplateLaser;
+class SensorTemplateNV;
+class SensorTemplateDataLink;
+
 class CfgVehicles {
     class I_E_EC_02_RF;
 
@@ -68,6 +78,27 @@ class CfgVehicles {
                         mirroredMissilePos = 2;
                         UIposition[] = {0.57,0.35};
                     };
+                };
+            };
+
+            class SensorsManagerComponent {
+                class Components {
+                    // allow all sensor types
+                    class ActiveRadarSensorComponent: SensorTemplateActiveRadar {
+                        animDirection = "";
+                        aimDown = 0;
+                        angleRangeHorizontal = 360;
+                        angleRangeVertical = 360;
+                        typeRecognitionDistance = 6000;
+                    };
+                    class IRSensorComponent: SensorTemplateIR {};
+                    class LaserSensorComponent: SensorTemplateLaser {};
+                    class NVSensorComponent: SensorTemplateNV {};
+                    class PassiveRadarSensorComponent: SensorTemplatePassiveRadar {};
+                    class VisualSensorComponent: SensorTemplateVisual {};
+                    class DataLinkSensorComponent: SensorTemplateDataLink {};
+                    class ManSensorComponent: SensorTemplateMan {};
+                    class AntiRadiationSensorComponent: SensorTemplateAntiRadiation {};
                 };
             };
         };
