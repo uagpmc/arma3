@@ -1,7 +1,7 @@
 class CfgVehicles {
-    class I_E_Pickup_rf;
+    class Pickup_01_base_rf;
 
-    class UAG_Moose_Pickup_BASE: I_E_Pickup_rf {
+    class UAG_Moose_Pickup_BASE: Pickup_01_base_rf {
         scope = 0;
         displayName = "Moose Pickup";
         textureList[] = {};
