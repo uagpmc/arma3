@@ -17,7 +17,7 @@ class CfgVehicles {
 
     class UAG_Cougar_Gunship: UAG_Cougar_Gunship_PARENTPROXY {
         scope = 2;
-        displayName = "UAG Cougar Gunship";
+        displayName = "Cougar Gunship";
         hiddenSelectionsTextures[] = {
             "z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_exterior_03_ldf_co_uag.paa",
             "z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_int_cargo_co_uag.paa",
