@@ -27,6 +27,9 @@ class CfgPatches {
 };
 
 #include "macros.hpp"
+#include "CfgFactionClasses.hpp"
+#include "CfgVehicleClasses.hpp"
+#include "CfgEditorSubcategories.hpp"
 #include "Gear/_index.hpp"
 #include "Units/_index.hpp"
 #include "Weapons/_index.hpp"

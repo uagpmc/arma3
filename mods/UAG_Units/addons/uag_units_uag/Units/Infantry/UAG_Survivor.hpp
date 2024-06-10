@@ -4,6 +4,8 @@ class CfgVehicles {
     class UAG_Survivor: B_Survivor_F {
         displayName = "Survivor";
         faction = "UAG";
+        vehicleClass = "Combat_Contractors_Black_Splinter";
+        editorSubcategory = "Combat_Contractors_Black_Splinter";
         linkedItems[] = {
             commonLinkedItems
         };
