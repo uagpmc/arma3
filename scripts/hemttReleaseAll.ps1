@@ -1,3 +1,5 @@
+Push-Location "mods\"
+
 $modDirs = Get-ChildItem -Directory -Path .\ -Exclude .git
 
 foreach ($modDir in $modDirs) {
