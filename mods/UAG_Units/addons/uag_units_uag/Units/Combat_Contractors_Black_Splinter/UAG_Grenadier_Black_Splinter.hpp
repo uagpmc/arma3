@@ -1,7 +1,7 @@
 class CfgVehicles {
-    class UAG_Contractor;
+    class UAG_Contractor_Black_Splinter;
 
-    class UAG_Grenadier: UAG_Contractor {
+    class UAG_Grenadier_Black_Splinter: UAG_Contractor_Black_Splinter {
         displayName = "Grenadier";
         linkedItems[] = {
             commonLinkedItems,

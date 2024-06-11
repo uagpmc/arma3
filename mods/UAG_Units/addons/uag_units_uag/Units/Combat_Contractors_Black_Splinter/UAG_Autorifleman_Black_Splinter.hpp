@@ -1,7 +1,7 @@
 class CfgVehicles {
-    class UAG_Contractor;
+    class UAG_Contractor_Black_Splinter;
 
-    class UAG_Autorifleman: UAG_Contractor {
+    class UAG_Autorifleman_Black_Splinter: UAG_Contractor_Black_Splinter {
         displayName = "Autorifleman";
         linkedItems[] = {
             commonLinkedItems,

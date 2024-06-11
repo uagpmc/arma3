@@ -537,7 +537,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=61;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -597,7 +597,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=63;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -657,7 +657,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=65;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -717,7 +717,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=67;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -777,7 +777,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=69;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -837,7 +837,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=71;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -897,7 +897,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=73;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -957,7 +957,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=77;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1017,7 +1017,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=81;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1077,7 +1077,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=83;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1137,7 +1137,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=89;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1197,7 +1197,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=91;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1257,7 +1257,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=93;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1317,7 +1317,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=95;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1377,7 +1377,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=99;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1437,7 +1437,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=103;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1497,7 +1497,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=105;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1557,7 +1557,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=107;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1617,7 +1617,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=109;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1677,7 +1677,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=111;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1737,7 +1737,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=113;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1797,7 +1797,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=115;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1857,7 +1857,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=117;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1917,7 +1917,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=119;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1977,7 +1977,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=121;
-					type="UAG_Contractor";
+					type="UAG_Contractor_Black_Splinter";
 					class CustomAttributes
 					{
 						class Attribute0

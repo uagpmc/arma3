@@ -12,15 +12,15 @@ class CfgPatches {
         };
         requiredVersion = 2.16;
         units[] = {
-            "UAG_Survivor",
-            "UAG_Contractor",
-            "UAG_Grenadier",
-            "UAG_Marksman",
-            "UAG_Autorifleman",
-            "UAG_Machinegunner",
-            "UAG_Sniper",
-            "UAG_Raider",
-            "UAG_Pointman"
+            "UAG_Survivor_Black_Splinter",
+            "UAG_Contractor_Black_Splinter",
+            "UAG_Grenadier_Black_Splinter",
+            "UAG_Marksman_Black_Splinter",
+            "UAG_Autorifleman_Black_Splinter",
+            "UAG_Machinegunner_Black_Splinter",
+            "UAG_Sniper_Black_Splinter",
+            "UAG_Raider_Black_Splinter",
+            "UAG_Pointman_Black_Splinter"
         };
         weapons[] = {};
     };
