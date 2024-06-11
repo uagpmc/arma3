@@ -8,7 +8,9 @@ class CfgPatches {
             "A3_Characters_F_Exp",
             "A3_Characters_F_Exp_Headgear",
             "A3_Characters_F_Orange_Headgear",
-            "A3_Characters_F_Enoch"
+            "A3_Characters_F_Enoch",
+            "A3_Soft_F_Offroad_01",
+            "A3_Soft_F_Enoch_Offroad_01"
         };
         requiredVersion = 2.16;
         units[] = {
@@ -33,3 +35,4 @@ class CfgPatches {
 #include "Gear/_index.hpp"
 #include "Units/_index.hpp"
 #include "Weapons/_index.hpp"
+#include "Vehicles/_index.hpp"
