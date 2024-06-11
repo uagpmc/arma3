@@ -10,7 +10,7 @@ git_hash = 8
 
 [properties]
 author = "UAG Development Team"
-url = "https://github.com/UnnamedArmaGroupHub/arma3"
+url = "https://github.com/uagpmc/arma3"
 
 [hemtt.launch.default]
 workshop = [
