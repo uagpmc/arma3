@@ -5,3 +5,7 @@
 #include "UAG_Offroad_Comms_Black/config.hpp"
 #include "UAG_Wiesel_Cannon_BASE/config.hpp"
 #include "UAG_Wiesel_Cannon_Black/config.hpp"
+#include "UAG_Wiesel_AT_BASE/config.hpp"
+#include "UAG_Wiesel_AT_Black/config.hpp"
+#include "UAG_Wiesel_AA_BASE/config.hpp"
+#include "UAG_Wiesel_AA_Black/config.hpp"
