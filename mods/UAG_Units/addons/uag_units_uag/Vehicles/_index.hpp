@@ -3,3 +3,5 @@
 #include "UAG_Offroad_Black_Splinter/config.hpp"
 #include "UAG_Offroad_Comms_BASE/config.hpp"
 #include "UAG_Offroad_Comms_Black/config.hpp"
+#include "UAG_Wiesel_Cannon_BASE/config.hpp"
+#include "UAG_Wiesel_Cannon_Black/config.hpp"
