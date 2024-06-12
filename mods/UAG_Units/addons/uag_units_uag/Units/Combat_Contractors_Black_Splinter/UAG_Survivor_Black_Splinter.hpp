@@ -9,6 +9,6 @@ class CfgVehicles {
         linkedItems[] = {
             commonLinkedItems
         };
-        uniformClass = "UAG_Combat_Fatigues";
+        uniformClass = "UAG_Combat_Fatigues_Black_Splinter";
     };
 };

@@ -1,4 +1,5 @@
-#include "UAG_Combat_Fatigues/config.hpp"
+#include "UAG_Combat_Fatigues_Black_Splinter/config.hpp"
+#include "UAG_Combat_Fatigues_White_Splinter/config.hpp"
 #include "UAG_Plate_Carrier_Light/config.hpp"
 #include "UAG_Plate_Carrier_Medium/config.hpp"
 #include "UAG_Plate_Carrier_Heavy/config.hpp"
