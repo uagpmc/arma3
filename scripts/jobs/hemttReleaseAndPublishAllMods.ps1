@@ -17,7 +17,7 @@ foreach ($modDir in $modDirs) {
     # run HEMTT release if mod has a .hemtt/project.toml file
     if (Test-Path ".hemtt\project.toml") {
         Write-Host "Running HEMTT Release for $($modDir.Name)"
-        & hemtt release --no-archive
+        & hemtt release --no-archive --expsqfc
     }
 
     # run Arma 3 Tools PublisherCmd if mod has a workshop_id.txt file
