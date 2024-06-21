@@ -8,3 +8,5 @@ foreach ($modDir in $modDirs) {
         & hemtt release --no-archive
     Pop-Location
 }
+
+Pop-Location
