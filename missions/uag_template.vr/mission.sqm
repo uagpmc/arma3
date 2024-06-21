@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=136;
+		nextID=138;
 	};
 	class MarkerIDProvider
 	{
@@ -16,59 +16,51 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={91.198174,12.427966,71.120537};
-		dir[]={0.039761096,-0.40911669,0.91161543};
-		up[]={0.01782712,0.91248214,0.40872812};
-		aside[]={0.99905032,1.8626451e-009,-0.043574665};
+		pos[]={83.663239,12.427966,80.444496};
+		dir[]={0.68236089,-0.523772,0.50994754};
+		up[]={0.41955507,0.8518585,0.31354535};
+		aside[]={0.59862942,0,-0.80102611};
 	};
 };
 binarizationWanted=0;
-sourceName="template";
+sourceName="uag_template";
 addons[]=
 {
-	"uagunits",
 	"A3_Modules_F",
 	"A3_Supplies_F_Orange_Ammoboxes",
-	"ace_fortify",
-	"SSS_module"
+	"uag_units_uag",
+	"A3_Modules_F_Curator_Curator"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=5;
+		items=4;
 		class Item0
-		{
-			className="uagunits";
-			name="uagunits";
-		};
-		class Item1
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item2
+		class Item1
 		{
 			className="A3_Supplies_F_Orange";
 			name="Arma 3 Orange - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item2
+		{
+			className="uag_units_uag";
+			name="uag_units_uag";
+		};
 		class Item3
 		{
-			className="ace_fortify";
-			name="ace_fortify";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item4
-		{
-			className="SSS_module";
-			name="module";
-			author="Simplex Team";
-			url="https://github.com/SceptreOfficial/Simplex-Support-Services";
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -365,69 +357,8 @@ class Mission
 	};
 	class Entities
 	{
-		items=33;
+		items=29;
 		class Item0
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={91.986,5.0014391,86.028999};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						name="bigman";
-						description="Zeus@Crossroads";
-						isPlayer=1;
-					};
-					id=59;
-					type="UAG_SectionCommander";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male10ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.98000002;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=2;
-		};
-		class Item1
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -438,7 +369,7 @@ class Mission
 			id=51;
 			type="Logic";
 		};
-		class Item2
+		class Item1
 		{
 			dataType="Object";
 			class PositionInfo
@@ -515,7 +446,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item3
+		class Item2
 		{
 			dataType="Group";
 			side="West";
@@ -575,7 +506,7 @@ class Mission
 			};
 			id=60;
 		};
-		class Item4
+		class Item3
 		{
 			dataType="Group";
 			side="West";
@@ -635,7 +566,7 @@ class Mission
 			};
 			id=62;
 		};
-		class Item5
+		class Item4
 		{
 			dataType="Group";
 			side="West";
@@ -695,7 +626,7 @@ class Mission
 			};
 			id=64;
 		};
-		class Item6
+		class Item5
 		{
 			dataType="Group";
 			side="West";
@@ -755,7 +686,7 @@ class Mission
 			};
 			id=66;
 		};
-		class Item7
+		class Item6
 		{
 			dataType="Group";
 			side="West";
@@ -815,7 +746,7 @@ class Mission
 			};
 			id=68;
 		};
-		class Item8
+		class Item7
 		{
 			dataType="Group";
 			side="West";
@@ -875,7 +806,7 @@ class Mission
 			};
 			id=70;
 		};
-		class Item9
+		class Item8
 		{
 			dataType="Group";
 			side="West";
@@ -935,7 +866,7 @@ class Mission
 			};
 			id=72;
 		};
-		class Item10
+		class Item9
 		{
 			dataType="Group";
 			side="West";
@@ -995,7 +926,7 @@ class Mission
 			};
 			id=76;
 		};
-		class Item11
+		class Item10
 		{
 			dataType="Group";
 			side="West";
@@ -1055,7 +986,7 @@ class Mission
 			};
 			id=80;
 		};
-		class Item12
+		class Item11
 		{
 			dataType="Group";
 			side="West";
@@ -1115,7 +1046,7 @@ class Mission
 			};
 			id=82;
 		};
-		class Item13
+		class Item12
 		{
 			dataType="Group";
 			side="West";
@@ -1175,7 +1106,7 @@ class Mission
 			};
 			id=88;
 		};
-		class Item14
+		class Item13
 		{
 			dataType="Group";
 			side="West";
@@ -1235,7 +1166,7 @@ class Mission
 			};
 			id=90;
 		};
-		class Item15
+		class Item14
 		{
 			dataType="Group";
 			side="West";
@@ -1295,7 +1226,7 @@ class Mission
 			};
 			id=92;
 		};
-		class Item16
+		class Item15
 		{
 			dataType="Group";
 			side="West";
@@ -1355,7 +1286,7 @@ class Mission
 			};
 			id=94;
 		};
-		class Item17
+		class Item16
 		{
 			dataType="Group";
 			side="West";
@@ -1415,7 +1346,7 @@ class Mission
 			};
 			id=98;
 		};
-		class Item18
+		class Item17
 		{
 			dataType="Group";
 			side="West";
@@ -1475,7 +1406,7 @@ class Mission
 			};
 			id=102;
 		};
-		class Item19
+		class Item18
 		{
 			dataType="Group";
 			side="West";
@@ -1535,7 +1466,7 @@ class Mission
 			};
 			id=104;
 		};
-		class Item20
+		class Item19
 		{
 			dataType="Group";
 			side="West";
@@ -1595,7 +1526,7 @@ class Mission
 			};
 			id=106;
 		};
-		class Item21
+		class Item20
 		{
 			dataType="Group";
 			side="West";
@@ -1655,7 +1586,7 @@ class Mission
 			};
 			id=108;
 		};
-		class Item22
+		class Item21
 		{
 			dataType="Group";
 			side="West";
@@ -1715,7 +1646,7 @@ class Mission
 			};
 			id=110;
 		};
-		class Item23
+		class Item22
 		{
 			dataType="Group";
 			side="West";
@@ -1775,7 +1706,7 @@ class Mission
 			};
 			id=112;
 		};
-		class Item24
+		class Item23
 		{
 			dataType="Group";
 			side="West";
@@ -1835,7 +1766,7 @@ class Mission
 			};
 			id=114;
 		};
-		class Item25
+		class Item24
 		{
 			dataType="Group";
 			side="West";
@@ -1895,7 +1826,7 @@ class Mission
 			};
 			id=116;
 		};
-		class Item26
+		class Item25
 		{
 			dataType="Group";
 			side="West";
@@ -1955,7 +1886,7 @@ class Mission
 			};
 			id=118;
 		};
-		class Item27
+		class Item26
 		{
 			dataType="Group";
 			side="West";
@@ -2015,231 +1946,102 @@ class Mission
 			};
 			id=120;
 		};
-		class Item28
+		class Item27
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={89.975998,5,86.012001};
+				position[]={89.987,5,86.001999};
 			};
-			id=122;
-			type="acex_fortify_setupModule";
+			name="zeus_adminLogged";
+			id=136;
+			type="ModuleCurator_F";
 			class CustomAttributes
 			{
 				class Attribute0
 				{
-					property="ace_fortify_setupModule_Budget";
-					expression="_this setVariable ['Budget',_value,true];";
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
 					class Value
 					{
 						class data
 						{
-							singleType="SCALAR";
-							value=0;
+							singleType="STRING";
+							value="#adminLogged";
 						};
 					};
 				};
 				class Attribute1
 				{
-					property="ace_fortify_setupModule_AddToolItem";
-					expression="_this setVariable ['AddToolItem',_value,true];";
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
 					class Value
 					{
 						class data
 						{
-							singleType="BOOL";
+							singleType="SCALAR";
 							value=0;
 						};
 					};
 				};
 				class Attribute2
 				{
-					property="ace_fortify_setupModule_Preset";
-					expression="_this setVariable ['Preset',_value,true];";
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
 					class Value
 					{
 						class data
 						{
 							singleType="STRING";
-							value="big";
+							value="";
 						};
 					};
 				};
 				class Attribute3
 				{
-					property="ace_fortify_setupModule_Side";
-					expression="_this setVariable ['Side',_value,true];";
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
 					class Value
 					{
 						class data
 						{
 							singleType="SCALAR";
-							value=1;
+							value=3;
 						};
 					};
 				};
 				nAttributes=4;
 			};
 		};
-		class Item29
+		class Item28
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={87.946999,5,86.081001};
+				position[]={89.980003,5,83.992996};
 			};
-			id=131;
-			type="SSS_module_AddCASDrone";
+			name="zeus_zuedev";
+			id=137;
+			type="ModuleCurator_F";
 			class CustomAttributes
 			{
 				class Attribute0
 				{
-					property="SSS_module_AddCASDrone_Cooldown";
-					expression="_this setVariable ['Cooldown',_value,true];";
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
 					class Value
 					{
 						class data
 						{
 							singleType="STRING";
-							value="300";
+							value="76561198048656902";
 						};
 					};
 				};
 				class Attribute1
 				{
-					property="SSS_module_AddCASDrone_Classname";
-					expression="_this setVariable ['Classname',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="B_UAV_02_F";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="SSS_module_AddCASDrone_LoiterTime";
-					expression="_this setVariable ['LoiterTime',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="300";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="SSS_module_AddCASDrone_Side";
-					expression="_this setVariable ['Side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="SSS_module_AddCASDrone_RequestApprovalCondition";
-					expression="_this setVariable ['RequestApprovalCondition',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="true";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="SSS_module_AddCASDrone_AccessCondition";
-					expression="_this setVariable ['AccessCondition',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="getPlayerUID player in [""76561198048656902""]";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="SSS_module_AddCASDrone_Callsign";
-					expression="_this setVariable ['Callsign',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="HERMES";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="SSS_module_AddCASDrone_CustomInit";
-					expression="_this setVariable ['CustomInit',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="_this addEventHandler [""Fired"",{(_this select 0) setVehicleAmmo 1}]";
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="SSS_module_AddCASDrone_AccessItems";
-					expression="_this setVariable ['AccessItems',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="itemMap";
-						};
-					};
-				};
-				nAttributes=9;
-			};
-		};
-		class Item30
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={87.975998,5,84.055};
-			};
-			id=132;
-			type="SSS_module_AddCASGunship";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="SSS_module_AddCASGunship_AccessCondition";
-					expression="_this setVariable ['AccessCondition',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="getPlayerUID player in [""76561198048656902""]";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="SSS_module_AddCASGunship_Side";
-					expression="_this setVariable ['Side',_value,true];";
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
 					class Value
 					{
 						class data
@@ -2251,449 +2053,31 @@ class Mission
 				};
 				class Attribute2
 				{
-					property="SSS_module_AddCASGunship_LoiterTime";
-					expression="_this setVariable ['LoiterTime',_value,true];";
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
 					class Value
 					{
 						class data
 						{
 							singleType="STRING";
-							value="300";
+							value="";
 						};
 					};
 				};
 				class Attribute3
 				{
-					property="SSS_module_AddCASGunship_Callsign";
-					expression="_this setVariable ['Callsign',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="SPOOKY";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="SSS_module_AddCASGunship_RequestApprovalCondition";
-					expression="_this setVariable ['RequestApprovalCondition',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="true";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="SSS_module_AddCASGunship_CustomInit";
-					expression="_this setVariable ['CustomInit',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="_this addEventHandler [""Fired"",{(_this select 0) setVehicleAmmo 1}]";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="SSS_module_AddCASGunship_Cooldown";
-					expression="_this setVariable ['Cooldown',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="300";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="SSS_module_AddCASGunship_TurretPath";
-					expression="_this setVariable ['TurretPath',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="[1]";
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="SSS_module_AddCASGunship_Classname";
-					expression="_this setVariable ['Classname',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="B_T_VTOL_01_armed_F";
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="SSS_module_AddCASGunship_AccessItems";
-					expression="_this setVariable ['AccessItems',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="itemMap";
-						};
-					};
-				};
-				nAttributes=10;
-			};
-		};
-		class Item31
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={87.985001,5,82.071999};
-			};
-			id=134;
-			type="SSS_module_AddCASPlane";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="SSS_module_AddCASPlane_AccessItems";
-					expression="_this setVariable ['AccessItems',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="itemMap";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="SSS_module_AddCASPlane_Callsign";
-					expression="_this setVariable ['Callsign',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="EAGLE";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="SSS_module_AddCASPlane_Classname";
-					expression="_this setVariable ['Classname',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="B_Plane_CAS_01_F";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="SSS_module_AddCASPlane_CustomInit";
-					expression="_this setVariable ['CustomInit',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="SSS_module_AddCASPlane_Side";
-					expression="_this setVariable ['Side',_value,true];";
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
 					class Value
 					{
 						class data
 						{
 							singleType="SCALAR";
-							value=0;
+							value=3;
 						};
 					};
 				};
-				class Attribute5
-				{
-					property="SSS_module_AddCASPlane_Cooldown";
-					expression="_this setVariable ['Cooldown',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="300";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="SSS_module_AddCASPlane_WeaponSet";
-					expression="_this setVariable ['WeaponSet',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="[""Gatling_30mm_Plane_CAS_01_F"",""Rocket_04_HE_Plane_CAS_01_F"",""Bomb_04_Plane_CAS_01_F""]";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="SSS_module_AddCASPlane_AccessCondition";
-					expression="_this setVariable ['AccessCondition',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="getPlayerUID player in [""76561198048656902""]";
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="SSS_module_AddCASPlane_RequestApprovalCondition";
-					expression="_this setVariable ['RequestApprovalCondition',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="true";
-						};
-					};
-				};
-				nAttributes=9;
-			};
-		};
-		class Item32
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={88.001999,5,79.989998};
-			};
-			id=135;
-			type="SSS_module_AddLogisticsAirdrop";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="SSS_module_AddLogisticsAirdrop_UniversalInitCode";
-					expression="_this setVariable ['UniversalInitCode',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="SSS_module_AddLogisticsAirdrop_AccessCondition";
-					expression="_this setVariable ['AccessCondition',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="getPlayerUID player in [""76561198048656902""]";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="SSS_module_AddLogisticsAirdrop_Callsign";
-					expression="_this setVariable ['Callsign',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="AMAZON";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="SSS_module_AddLogisticsAirdrop_CustomInit";
-					expression="_this setVariable ['CustomInit',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="SSS_module_AddLogisticsAirdrop_Classname";
-					expression="_this setVariable ['Classname',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="B_T_VTOL_01_vehicle_F";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="SSS_module_AddLogisticsAirdrop_FlyingHeight";
-					expression="_this setVariable ['FlyingHeight',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="500";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="SSS_module_AddLogisticsAirdrop_MaxAmount";
-					expression="_this setVariable ['MaxAmount',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="1";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="SSS_module_AddLogisticsAirdrop_AccessItems";
-					expression="_this setVariable ['AccessItems',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="itemMap";
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="SSS_module_AddLogisticsAirdrop_Cooldown";
-					expression="_this setVariable ['Cooldown',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="300";
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="SSS_module_AddLogisticsAirdrop_SpawnPosition";
-					expression="_this setVariable ['SpawnPosition',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="SSS_module_AddLogisticsAirdrop_LandingSignal";
-					expression="_this setVariable ['LandingSignal',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="SSS_module_AddLogisticsAirdrop_ListFunction";
-					expression="_this setVariable ['ListFunction',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="[[""C_IDAP_supplyCrate_F"",""Arsenal Box"",""\A3\Ui_f\data\IGUI\Cfg\simpleTasks\types\rearm_ca.paa"",{clearItemCargoGlobal _this; clearMagazineCargoGlobal _this; clearWeaponCargoGlobal _this; clearBackpackCargoGlobal _this; [_this, true] call ace_arsenal_fnc_initBox;}]]";
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="SSS_module_AddLogisticsAirdrop_SpawnDelay";
-					expression="_this setVariable ['SpawnDelay',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="30";
-						};
-					};
-				};
-				class Attribute13
-				{
-					property="SSS_module_AddLogisticsAirdrop_Side";
-					expression="_this setVariable ['Side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute14
-				{
-					property="SSS_module_AddLogisticsAirdrop_RequestApprovalCondition";
-					expression="_this setVariable ['RequestApprovalCondition',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="true";
-						};
-					};
-				};
-				nAttributes=15;
+				nAttributes=4;
 			};
 		};
 	};
