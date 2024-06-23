@@ -10,5 +10,11 @@ class CfgVehicles {
             commonLinkedItems
         };
         uniformClass = "UAG_Combat_Fatigues_Black_Splinter";
+
+        // abilities
+        engineer = 1;
+        canDeactivateMines = 1;
+        attendant = 1;
+        uavHacker = 1;
     };
 };
