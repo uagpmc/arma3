@@ -8,6 +8,6 @@ class CfgVehicles {
             "HandGrenade",
             "SmokeShell"
         };
-        weapons[] = {"UAG_SIG556v2_Pitbull"};
+        weapons[] = {"UAG_SIG556v2_Pitbull", "Throw", "Put"};
     };
 };

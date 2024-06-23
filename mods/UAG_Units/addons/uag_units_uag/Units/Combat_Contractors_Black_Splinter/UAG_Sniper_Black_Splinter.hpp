@@ -13,6 +13,6 @@ class CfgVehicles {
             "HandGrenade",
             "SmokeShell"
         };
-        weapons[] = {"UAG_M200v2_LRPS"};
+        weapons[] = {"UAG_M200v2_LRPS", "Throw", "Put"};
     };
 };

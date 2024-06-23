@@ -15,6 +15,6 @@ class CfgVehicles {
             "HandGrenade",
             "SmokeShell"
         };
-        weapons[] = {"UAG_MSBS65v2_GL_ModularSight"};
+        weapons[] = {"UAG_MSBS65v2_GL_ModularSight", "Throw", "Put"};
     };
 };

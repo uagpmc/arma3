@@ -9,6 +9,6 @@ class CfgVehicles {
             "HandGrenade",
             "SmokeShell"
         };
-        weapons[] = {"UAG_MSBS65v2_UBS_Holo"};
+        weapons[] = {"UAG_MSBS65v2_UBS_Holo", "Throw", "Put"};
     };
 };

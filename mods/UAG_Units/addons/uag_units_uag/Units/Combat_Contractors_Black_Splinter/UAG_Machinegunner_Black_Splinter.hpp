@@ -8,6 +8,6 @@ class CfgVehicles {
             "HandGrenade",
             "SmokeShell"
         };
-        weapons[] = {"MMG_02_black_F"};
+        weapons[] = {"MMG_02_black_F", "Throw", "Put"};
     };
 };
