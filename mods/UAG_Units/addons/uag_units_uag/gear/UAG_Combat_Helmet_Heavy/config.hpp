@@ -24,8 +24,8 @@ class CfgWeapons {
         _generalMacro = "UAG_Combat_Helmet_Heavy";
         scope = 2;
         displayName = "UAG Combat Helmet - Heavy";
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Heavy\h_helmetb_ti_tna_f_co_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Heavy\icon_h_helmetb_ti_tna_f_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Heavy\h_helmetb_ti_tna_f_co_uag.paa"};
+        picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Heavy\icon_h_helmetb_ti_tna_f_ca_uag.paa";
 
         ace_hearing_protection = 1;
         ace_hearing_lowerVolume = 0;

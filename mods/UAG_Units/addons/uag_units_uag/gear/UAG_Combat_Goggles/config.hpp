@@ -10,8 +10,8 @@ class CfgGlasses {
 
     class UAG_Combat_Goggles: G_Combat_Goggles_tna_F {
         displayName = "UAG Combat Goggles";
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Goggles\g_combat_goggles_tna_f_ca_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Goggles\icon_g_combat_goggles_tna_f_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Goggles\g_combat_goggles_tna_f_ca_uag.paa"};
+        picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Goggles\icon_g_combat_goggles_tna_f_ca_uag.paa";
         mass = 0;
     };
 };

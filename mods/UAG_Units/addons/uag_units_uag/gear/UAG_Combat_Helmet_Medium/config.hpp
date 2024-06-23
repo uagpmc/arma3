@@ -17,7 +17,7 @@ class CfgWeapons {
         _generalMacro = "UAG_Combat_Helmet_Medium";
         scope = 2;
         displayName = "UAG Combat Helmet - Medium";
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Medium\H_PASGT_blue_press_CO_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Medium\icon_H_PASGT_basic_blue_press_CA_uag.paa";
+        hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Medium\H_PASGT_blue_press_CO_uag.paa"};
+        picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Medium\icon_H_PASGT_basic_blue_press_CA_uag.paa";
     };
 };

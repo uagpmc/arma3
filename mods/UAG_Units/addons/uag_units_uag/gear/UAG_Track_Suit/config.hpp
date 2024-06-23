@@ -16,8 +16,8 @@ class CfgWeapons {
     class UAG_Track_Suit: UAG_Track_Suit_PARENTPROXY {
         scope = 2;
         displayName = "UAG Track Suit";
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_Track_Suit\Gorka_01_Khaki_CO_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_Track_Suit\icon_U_O_R_Gorka_01_F_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Track_Suit\Gorka_01_Khaki_CO_uag.paa"};
+        picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Track_Suit\icon_U_O_R_Gorka_01_F_ca_uag.paa";
 
         class ItemInfo: ItemInfo {
             mass = 0;
@@ -30,7 +30,7 @@ class CfgVehicles {
     class O_R_Gorka_F;
 
     class UAG_Track_Suit_Soldier: O_R_Gorka_F {
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_Track_Suit\Gorka_01_Khaki_CO_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_Track_Suit\icon_U_O_R_Gorka_01_F_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Track_Suit\Gorka_01_Khaki_CO_uag.paa"};
+        picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Track_Suit\icon_U_O_R_Gorka_01_F_ca_uag.paa";
     };
 };

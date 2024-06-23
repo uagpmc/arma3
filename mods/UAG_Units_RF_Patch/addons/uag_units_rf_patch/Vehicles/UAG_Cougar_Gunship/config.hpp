@@ -29,12 +29,12 @@ class CfgVehicles {
         scope = 2;
         displayName = "Cougar Gunship";
         hiddenSelectionsTextures[] = {
-            "z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_exterior_03_ldf_co_uag.paa",
-            "z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_int_cargo_co_uag.paa",
+            "\z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_exterior_03_ldf_co_uag.paa",
+            "\z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_int_cargo_co_uag.paa",
             "#(rgb,1024,1024,1)ui('lxRF_MFDMinimap','lxRF_MFDMinimap')",
-            "z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_adds_03_ldf_co_uag.paa",
-            "z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_exterior_03_ldf_co_uag.paa",
-            "z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_int_cargo_co_uag.paa"
+            "\z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_adds_03_ldf_co_uag.paa",
+            "\z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_exterior_03_ldf_co_uag.paa",
+            "\z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_int_cargo_co_uag.paa"
         };
         textureList[] = {};
         crew = "UAG_Contractor_Black_Splinter";

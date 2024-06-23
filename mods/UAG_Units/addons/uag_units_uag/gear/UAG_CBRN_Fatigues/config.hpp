@@ -16,8 +16,8 @@ class CfgWeapons {
     class UAG_CBRN_Fatigues: UAG_CBRN_Fatigues_PARENTPROXY {
         scope = 2;
         displayName = "UAG CBRN Fatigues";
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\CBRN_Suit_01_EAF_CO_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\icon_U_I_E_CBRN_Suit_01_EAF_F_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\CBRN_Suit_01_EAF_CO_uag.paa"};
+        picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\icon_U_I_E_CBRN_Suit_01_EAF_F_ca_uag.paa";
 
         class ItemInfo: ItemInfo {
             mass = 0;
@@ -30,7 +30,7 @@ class CfgVehicles {
     class I_E_CBRN_Man_Oversuit_01_EAF_F;
 
     class UAG_CBRN_Fatigues_Soldier: I_E_CBRN_Man_Oversuit_01_EAF_F {
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\CBRN_Suit_01_EAF_CO_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\icon_U_I_E_CBRN_Suit_01_EAF_F_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\CBRN_Suit_01_EAF_CO_uag.paa"};
+        picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\icon_U_I_E_CBRN_Suit_01_EAF_F_ca_uag.paa";
     };
 };

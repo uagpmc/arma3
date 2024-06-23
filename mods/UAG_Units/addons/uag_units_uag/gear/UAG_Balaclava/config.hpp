@@ -10,8 +10,8 @@ class CfgGlasses {
 
     class UAG_Balaclava: G_Balaclava_TI_tna_F {
         displayName = "UAG Balaclava";
-        hiddenSelectionsTextures[] = {"z\UAG_Units\addons\uag_units_uag\Gear\UAG_Balaclava\g_balaclava_ti_tna_f_co_uag.paa"};
-        picture = "z\UAG_Units\addons\uag_units_uag\Gear\UAG_Balaclava\icon_G_Balaclava_TI_tna_F_ca_uag.paa";
+        hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Balaclava\g_balaclava_ti_tna_f_co_uag.paa"};
+        picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Balaclava\icon_G_Balaclava_TI_tna_F_ca_uag.paa";
         mass = 0;
     };
 };
