@@ -9,6 +9,11 @@
 	while {true} do {
 		if (isPlayer player && alive player && player getVariable ["ace_isUnconscious", false]) then {
 			[player, false, 0, true] call ace_medical_fnc_setUnconscious;
+
+			sleep 1;
+
+			// reset the player's animation
+			[player, false] call ace_medical_engine_fnc_setUnconsciousAnim;
 		};
 		
 		sleep ([5, 30] call BIS_fnc_randomInt);
