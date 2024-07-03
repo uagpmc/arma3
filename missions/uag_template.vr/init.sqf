@@ -7,10 +7,6 @@ if (!isServer) then {};
 // run on all player clients incl. player host
 if (hasInterface) then {
     #include "includes\uag_pacemaker_init.sqf"
-    #include "includes\uag_loadout_actions_init.sqf"
-
-    // add arsenal to arsenal box
-    // [arsenal_box, true] call ace_arsenal_fnc_initBox;
 };
 
 // run on dedicated server only

@@ -345,7 +345,7 @@ class Mission
 			{
 				position[]={91.959999,5,88.011002};
 			};
-			init="call{createMarker [""respawn"", this];}" \n ";0 = [getPosATL this] spawn uag_fnc_createArsenal;";
+			init="call{createMarker [""respawn"", this];}";
 			id=51;
 			type="Logic";
 		};
