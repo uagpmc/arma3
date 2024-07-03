@@ -16,6 +16,12 @@ if (isNil "_faction") then {_faction = "UAG";};
 
 _loadouts = ("(configname _x isKindOf 'Man') && (getText (_x >> 'faction') == '" + _faction + "')" configClasses (configFile >> "CfgVehicles")) apply {configName _x};
 
+_loadoutsPretty = [];
+
+{
+	_loadoutsPretty pushBack (getText (configFile >> "CfgVehicles" >> _x >> "displayName"));
+} forEach _loadouts;
+
 0 = [
 	// title
 	"UAG Loadouts System",
@@ -25,7 +31,8 @@ _loadouts = ("(configname _x isKindOf 'Man') && (getText (_x >> 'faction') == '"
 			"LIST",
 			"Loadouts",
 			[
-				_loadouts
+				_loadouts,
+				_loadoutsPretty
 			]
 		]
 	],
