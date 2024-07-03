@@ -27,14 +27,13 @@ sourceName="uag_template";
 addons[]=
 {
 	"A3_Modules_F",
-	"uag_units_uag",
-	"A3_Modules_F_Curator_Curator"
+	"uag_units_uag"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=3;
+		items=2;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -46,13 +45,6 @@ class AddonsMetaData
 		{
 			className="uag_units_uag";
 			name="uag_units_uag";
-		};
-		class Item2
-		{
-			className="A3_Modules_F_Curator";
-			name="Arma 3 Zeus Update - Scripted Modules";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
 		};
 	};
 };
@@ -345,7 +337,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=28;
+		items=26;
 		class Item0
 		{
 			dataType="Logic";
@@ -1856,140 +1848,6 @@ class Mission
 			{
 			};
 			id=120;
-		};
-		class Item26
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={89.979996,5,88.020485};
-			};
-			name="zeus_adminLogged";
-			id=136;
-			type="ModuleCurator_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCurator_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="#adminLogged";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCurator_F_Forced";
-					expression="_this setVariable ['Forced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCurator_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCurator_F_Addons";
-					expression="_this setVariable ['Addons',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				nAttributes=4;
-			};
-		};
-		class Item27
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={89.973,5,86.011482};
-			};
-			name="zeus_zuedev";
-			id=137;
-			type="ModuleCurator_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCurator_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="76561198048656902";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCurator_F_Forced";
-					expression="_this setVariable ['Forced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCurator_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCurator_F_Addons";
-					expression="_this setVariable ['Addons',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				nAttributes=4;
-			};
 		};
 	};
 };
