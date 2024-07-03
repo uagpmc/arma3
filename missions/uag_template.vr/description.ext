@@ -14,7 +14,7 @@ class Header {
 class CfgFunctions
 {
 	class UAG {
-		class client {
+		class uag {
 			class fetch {};
 			class loadout {};
 			class loadoutDialog {};
