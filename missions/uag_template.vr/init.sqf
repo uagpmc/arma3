@@ -10,7 +10,7 @@ if (hasInterface) then {
     // #include "includes\uag_loadout_actions_init.sqf"
 
     // add arsenal to arsenal box
-    [arsenal_box, true] call ace_arsenal_fnc_initBox;
+    // [arsenal_box, true] call ace_arsenal_fnc_initBox;
 };
 
 // run on dedicated server only
