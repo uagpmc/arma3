@@ -27,7 +27,6 @@ sourceName="uag_template";
 addons[]=
 {
 	"A3_Modules_F",
-	"A3_Supplies_F_Orange_Ammoboxes",
 	"uag_units_uag",
 	"A3_Modules_F_Curator_Curator"
 };
@@ -35,7 +34,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=4;
+		items=3;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -45,17 +44,10 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="A3_Supplies_F_Orange";
-			name="Arma 3 Orange - Ammoboxes and Supplies";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item2
-		{
 			className="uag_units_uag";
 			name="uag_units_uag";
 		};
-		class Item3
+		class Item2
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
@@ -63,10 +55,6 @@ class AddonsMetaData
 			url="https://www.arma3.com";
 		};
 	};
-};
-dlcs[]=
-{
-	"ORANGE"
 };
 randomSeed=7996323;
 class ScenarioData
@@ -357,96 +345,19 @@ class Mission
 	};
 	class Entities
 	{
-		items=29;
+		items=28;
 		class Item0
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={91.960396,5,88.010612};
+				position[]={91.959999,5,88.011002};
 			};
-			init="call{createMarker [""respawn"", this];}";
+			init="call{createMarker [""respawn"", this];}" \n ";0 = [getPosATL this] spawn uag_fnc_createArsenal;";
 			id=51;
 			type="Logic";
 		};
 		class Item1
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={93.986,5.8924227,85.992996};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				init="[this, true] call ace_arsenal_fnc_initBox;";
-			};
-			id=58;
-			type="C_IDAP_supplyCrate_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_arsenal_attribute";
-					expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-							class value
-							{
-								items=2;
-								class Item0
-								{
-									class data
-									{
-										singleType="ARRAY";
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-							};
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item2
 		{
 			dataType="Group";
 			side="West";
@@ -506,7 +417,7 @@ class Mission
 			};
 			id=60;
 		};
-		class Item3
+		class Item2
 		{
 			dataType="Group";
 			side="West";
@@ -566,7 +477,7 @@ class Mission
 			};
 			id=62;
 		};
-		class Item4
+		class Item3
 		{
 			dataType="Group";
 			side="West";
@@ -626,7 +537,7 @@ class Mission
 			};
 			id=64;
 		};
-		class Item5
+		class Item4
 		{
 			dataType="Group";
 			side="West";
@@ -686,7 +597,7 @@ class Mission
 			};
 			id=66;
 		};
-		class Item6
+		class Item5
 		{
 			dataType="Group";
 			side="West";
@@ -746,7 +657,7 @@ class Mission
 			};
 			id=68;
 		};
-		class Item7
+		class Item6
 		{
 			dataType="Group";
 			side="West";
@@ -806,7 +717,7 @@ class Mission
 			};
 			id=70;
 		};
-		class Item8
+		class Item7
 		{
 			dataType="Group";
 			side="West";
@@ -866,7 +777,7 @@ class Mission
 			};
 			id=72;
 		};
-		class Item9
+		class Item8
 		{
 			dataType="Group";
 			side="West";
@@ -926,7 +837,7 @@ class Mission
 			};
 			id=76;
 		};
-		class Item10
+		class Item9
 		{
 			dataType="Group";
 			side="West";
@@ -986,7 +897,7 @@ class Mission
 			};
 			id=80;
 		};
-		class Item11
+		class Item10
 		{
 			dataType="Group";
 			side="West";
@@ -1046,7 +957,7 @@ class Mission
 			};
 			id=82;
 		};
-		class Item12
+		class Item11
 		{
 			dataType="Group";
 			side="West";
@@ -1106,7 +1017,7 @@ class Mission
 			};
 			id=88;
 		};
-		class Item13
+		class Item12
 		{
 			dataType="Group";
 			side="West";
@@ -1166,7 +1077,7 @@ class Mission
 			};
 			id=90;
 		};
-		class Item14
+		class Item13
 		{
 			dataType="Group";
 			side="West";
@@ -1226,7 +1137,7 @@ class Mission
 			};
 			id=92;
 		};
-		class Item15
+		class Item14
 		{
 			dataType="Group";
 			side="West";
@@ -1286,7 +1197,7 @@ class Mission
 			};
 			id=94;
 		};
-		class Item16
+		class Item15
 		{
 			dataType="Group";
 			side="West";
@@ -1346,7 +1257,7 @@ class Mission
 			};
 			id=98;
 		};
-		class Item17
+		class Item16
 		{
 			dataType="Group";
 			side="West";
@@ -1406,7 +1317,7 @@ class Mission
 			};
 			id=102;
 		};
-		class Item18
+		class Item17
 		{
 			dataType="Group";
 			side="West";
@@ -1466,7 +1377,7 @@ class Mission
 			};
 			id=104;
 		};
-		class Item19
+		class Item18
 		{
 			dataType="Group";
 			side="West";
@@ -1526,7 +1437,7 @@ class Mission
 			};
 			id=106;
 		};
-		class Item20
+		class Item19
 		{
 			dataType="Group";
 			side="West";
@@ -1586,7 +1497,7 @@ class Mission
 			};
 			id=108;
 		};
-		class Item21
+		class Item20
 		{
 			dataType="Group";
 			side="West";
@@ -1646,7 +1557,7 @@ class Mission
 			};
 			id=110;
 		};
-		class Item22
+		class Item21
 		{
 			dataType="Group";
 			side="West";
@@ -1706,7 +1617,7 @@ class Mission
 			};
 			id=112;
 		};
-		class Item23
+		class Item22
 		{
 			dataType="Group";
 			side="West";
@@ -1766,7 +1677,7 @@ class Mission
 			};
 			id=114;
 		};
-		class Item24
+		class Item23
 		{
 			dataType="Group";
 			side="West";
@@ -1826,7 +1737,7 @@ class Mission
 			};
 			id=116;
 		};
-		class Item25
+		class Item24
 		{
 			dataType="Group";
 			side="West";
@@ -1886,7 +1797,7 @@ class Mission
 			};
 			id=118;
 		};
-		class Item26
+		class Item25
 		{
 			dataType="Group";
 			side="West";
@@ -1946,12 +1857,12 @@ class Mission
 			};
 			id=120;
 		};
-		class Item27
+		class Item26
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={89.987,5,86.001999};
+				position[]={89.979996,5,88.020485};
 			};
 			name="zeus_adminLogged";
 			id=136;
@@ -2013,12 +1924,12 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item28
+		class Item27
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={89.980003,5,83.992996};
+				position[]={89.973,5,86.011482};
 			};
 			name="zeus_zuedev";
 			id=137;
