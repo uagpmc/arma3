@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={83.663239,12.427966,80.444496};
-		dir[]={0.68236089,-0.523772,0.50994754};
-		up[]={0.41955507,0.8518585,0.31354535};
-		aside[]={0.59862942,0,-0.80102611};
+		pos[]={81.235199,18.182116,79.7164};
+		dir[]={0.52244538,-0.66523153,0.53340209};
+		up[]={0.46548337,0.74663717,0.47524548};
+		aside[]={0.71440613,1.4901161e-08,-0.69973135};
 	};
 };
 binarizationWanted=0;
@@ -345,7 +345,7 @@ class Mission
 			{
 				position[]={91.959999,5,88.011002};
 			};
-			init="call{createMarker [""respawn"", this];}";
+			name="respawn_logic";
 			id=51;
 			type="Logic";
 		};
@@ -368,6 +368,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
+						isPlayer=1;
 						isPlayable=1;
 					};
 					id=61;

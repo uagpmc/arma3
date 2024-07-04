@@ -1,3 +1,10 @@
+/* initPlayerLocal.sqf
+ *
+ * Executed when player is killed in singleplayer or in multiplayer mission.
+ *
+ * More info: https://community.bistudio.com/wiki/Event_Scripts#onPlayerKilled.sqf
+ */
+ 
 params ["_oldUnit", "_killer", "_respawn", "_respawnDelay"];
 
 // if respawn is type 3 (or "BASE"), tell the player they will respawn in _respawnDelay seconds
