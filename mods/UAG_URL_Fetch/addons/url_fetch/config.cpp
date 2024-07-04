@@ -9,3 +9,13 @@ class CfgPatches {
         weapons[] = {};
     };
 };
+
+class CfgFunctions {
+    class UAG {
+        class UAG {
+            class urlFetch {
+                file = "\z\UAG_URL_Fetch\addons\url_fetch\functions\urlFetch.sqf";
+            };
+        };
+    };
+};
