@@ -30,5 +30,5 @@ class CfgPatches {
     };
 };
 
-#include "\z\UAG_Units\addons\uag_units_core\macros.hpp"
+#include "macros.hpp"
 #include "Vehicles/_index.hpp"
