@@ -23,6 +23,8 @@ class CfgPatches {
             "UAG_Sniper_Black_Splinter",
             "UAG_Raider_Black_Splinter",
             "UAG_Pointman_Black_Splinter",
+            "UAG_Crewman_Black_Splinter",
+            "UAG_Pilot_Black_Splinter",
             "UAG_Offroad_Black",
             "UAG_Offroad_Black_Splinter",
             "UAG_Offroad_Comms_Black",

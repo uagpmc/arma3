@@ -37,7 +37,7 @@ class CfgVehicles {
             "\z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_int_cargo_co_uag.paa"
         };
         textureList[] = {};
-        crew = "UAG_Contractor_Black_Splinter";
+        crew = "UAG_Pilot_Black_Splinter";
         faction = "UAG";
         side = 1;
 

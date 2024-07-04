@@ -4,7 +4,7 @@ class CfgVehicles {
     class UAG_Wiesel_Cannon_BASE: LT_01_cannon_base_F {
         scope = private;
         displayName = "Wiesel (Cannon)";
-        crew = "UAG_Contractor_Black_Splinter";
+        crew = "UAG_Crewman_Black_Splinter";
         faction = "UAG";
         side = 1;
         textureList[] = {};

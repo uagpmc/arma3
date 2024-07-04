@@ -7,3 +7,5 @@
 #include "UAG_Sniper_Black_Splinter.hpp"
 #include "UAG_Raider_Black_Splinter.hpp"
 #include "UAG_Pointman_Black_Splinter.hpp"
+#include "UAG_Crewman_Black_Splinter.hpp"
+#include "UAG_Pilot_Black_Splinter.hpp"

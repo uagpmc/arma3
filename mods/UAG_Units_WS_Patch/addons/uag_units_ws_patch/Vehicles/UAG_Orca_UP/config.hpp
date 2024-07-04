@@ -8,7 +8,7 @@ class CfgVehicles {
     class UAG_Orca_UP: UAG_Orca_UP_PARENTPROXY {
         scope = public;
         displayName = "Orca (UP)";
-        crew = "UAG_Contractor_Black_Splinter";
+        crew = "UAG_Pilot_Black_Splinter";
         faction = "UAG";
         side = 1;
         hiddenSelectionsTextures[] = {
