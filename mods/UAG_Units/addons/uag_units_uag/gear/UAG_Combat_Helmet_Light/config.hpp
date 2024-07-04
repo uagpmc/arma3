@@ -9,13 +9,13 @@ class CfgWeapons {
     class H_HelmetB_black;
 
     class UAG_Combat_Helmet_Light_PROXY: H_HelmetB_black {
-        scope = 0;
+        scope = private;
         class ItemInfo;
     };
 
     class UAG_Combat_Helmet_Light: UAG_Combat_Helmet_Light_PROXY {
         _generalMacro = "UAG_Combat_Helmet_Light";
-        scope = 2;
+        scope = public;
         displayName = "UAG Combat Helmet - Light";
         hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Light\equip1_black_co_uag.paa"};
         picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Helmet_Light\icon_H_HelmetB_black_ca_uag.paa";

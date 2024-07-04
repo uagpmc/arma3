@@ -2,7 +2,7 @@ class CfgVehicles {
     class Offroad_01_military_base_F;
 
     class UAG_Offroad_BASE: Offroad_01_military_base_F {
-        scope = 0;
+        scope = private;
         displayName = "Offroad";
         crew = "UAG_Contractor_Black_Splinter";
         faction = "UAG";

@@ -2,7 +2,7 @@ class CfgVehicles {
     class LT_01_cannon_base_F;
 
     class UAG_Wiesel_Cannon_BASE: LT_01_cannon_base_F {
-        scope = 0;
+        scope = private;
         displayName = "Wiesel (Cannon)";
         crew = "UAG_Contractor_Black_Splinter";
         faction = "UAG";

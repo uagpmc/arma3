@@ -10,12 +10,12 @@ class CfgWeapons {
     class U_B_CTRG_Soldier_urb_1_F;
 
     class UAG_Combat_Fatigues_Black_Splinter_PARENTPROXY: U_B_CTRG_Soldier_urb_1_F {
-        scope = 0;
+        scope = private;
         class ItemInfo;
     };
 
     class UAG_Combat_Fatigues_Black_Splinter: UAG_Combat_Fatigues_Black_Splinter_PARENTPROXY {
-        scope = 2;
+        scope = public;
         displayName = "UAG Combat Fatigues (Black Splinter)";
         hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Fatigues_Black_Splinter\clothing1_mtp_urban_co_uag.paa"};
         picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Combat_Fatigues_Black_Splinter\icon_U_B_CTRG_Soldier_urb_1_F_ca_uag.paa";

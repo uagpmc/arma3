@@ -9,12 +9,12 @@ class CfgWeapons {
     class U_I_E_CBRN_Suit_01_EAF_F;
 
     class UAG_CBRN_Fatigues_PARENTPROXY: U_I_E_CBRN_Suit_01_EAF_F {
-        scope = 0;
+        scope = private;
         class ItemInfo;
     };
 
     class UAG_CBRN_Fatigues: UAG_CBRN_Fatigues_PARENTPROXY {
-        scope = 2;
+        scope = public;
         displayName = "UAG CBRN Fatigues";
         hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\CBRN_Suit_01_EAF_CO_uag.paa"};
         picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_CBRN_Fatigues\icon_U_I_E_CBRN_Suit_01_EAF_F_ca_uag.paa";

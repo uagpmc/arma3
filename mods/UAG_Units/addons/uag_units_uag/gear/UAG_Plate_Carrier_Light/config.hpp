@@ -16,12 +16,12 @@ class CfgWeapons {
     class V_PlateCarrier1_blk;
 
     class UAG_Plate_Carrier_Light_PARENTPROXY: V_PlateCarrier1_blk {
-        scope = 0;
+        scope = private;
         class ItemInfo;
     };
 
     class UAG_Plate_Carrier_Light: UAG_Plate_Carrier_Light_PARENTPROXY {
-        scope = 2;
+        scope = public;
         displayName = "UAG Plate Carrier - Light";
         hiddenSelectionsTextures[] = {"\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Plate_Carrier_Light\vests_blk_co_uag.paa"};
         picture = "\z\UAG_Units\addons\uag_units_uag\Gear\UAG_Plate_Carrier_Light\icon_v_platecarrier1_blk_ca_uag.paa";

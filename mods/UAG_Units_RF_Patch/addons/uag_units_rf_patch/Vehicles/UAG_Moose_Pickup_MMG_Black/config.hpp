@@ -2,7 +2,7 @@ class CfgVehicles {
     class UAG_Moose_Pickup_MMG_BASE;
 
     class UAG_Moose_Pickup_MMG_Black: UAG_Moose_Pickup_MMG_BASE {
-        scope = 2;
+        scope = public;
         displayName = "Moose Pickup (Black, MMG)";
         hiddenSelectionsTextures[] = {
             "\z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Moose_Pickup_Black\pickup_01_ext_black_co_uag.paa",

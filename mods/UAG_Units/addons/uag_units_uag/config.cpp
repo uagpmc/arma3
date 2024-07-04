@@ -22,13 +22,19 @@ class CfgPatches {
             "UAG_Machinegunner_Black_Splinter",
             "UAG_Sniper_Black_Splinter",
             "UAG_Raider_Black_Splinter",
-            "UAG_Pointman_Black_Splinter"
+            "UAG_Pointman_Black_Splinter",
+            "UAG_Offroad_Black",
+            "UAG_Offroad_Black_Splinter",
+            "UAG_Offroad_Comms_Black",
+            "UAG_Wiesel_AA_Black",
+            "UAG_Wiesel_AT_Black",
+            "UAG_Wiesel_Cannon_Black"
         };
         weapons[] = {};
     };
 };
 
-#include "macros.hpp"
+#include "\z\UAG_Units\addons\uag_units_core\macros.hpp"
 #include "CfgFactionClasses.hpp"
 #include "CfgVehicleClasses.hpp"
 #include "CfgEditorSubcategories.hpp"

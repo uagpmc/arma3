@@ -2,7 +2,7 @@ class CfgVehicles {
     class Pickup_01_hmg_base_rf;
 
     class UAG_Moose_Pickup_HMG_BASE: Pickup_01_hmg_base_rf {
-        scope = 0;
+        scope = private;
         displayName = "Moose Pickup (HMG)";
         textureList[] = {};
         crew = "UAG_Contractor_Black_Splinter";

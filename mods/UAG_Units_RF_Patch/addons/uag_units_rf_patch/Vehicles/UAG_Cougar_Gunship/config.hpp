@@ -19,14 +19,14 @@ class CfgVehicles {
     class I_E_EC_02_RF;
 
     class UAG_Cougar_Gunship_PARENTPROXY: I_E_EC_02_RF {
-        scope = 0;
+        scope = private;
         
         class EventHandlers;
         class Components;
     };
 
     class UAG_Cougar_Gunship: UAG_Cougar_Gunship_PARENTPROXY {
-        scope = 2;
+        scope = public;
         displayName = "Cougar Gunship";
         hiddenSelectionsTextures[] = {
             "\z\UAG_Units_RF_Patch\addons\uag_units_rf_patch\Vehicles\UAG_Cougar_Gunship\as332_exterior_03_ldf_co_uag.paa",
