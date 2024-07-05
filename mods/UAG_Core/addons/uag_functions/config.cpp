@@ -26,6 +26,9 @@ class CfgFunctions {
                 file = "\z\UAG_Core\addons\uag_functions\functions\initPacemaker.sqf";
                 postInit = 1;
             };
+            class urlFetch {
+                file = "\z\UAG_Core\addons\uag_functions\functions\urlFetch.sqf";
+            };
         };
     };
 };
