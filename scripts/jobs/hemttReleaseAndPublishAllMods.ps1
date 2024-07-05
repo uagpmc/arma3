@@ -23,7 +23,7 @@ foreach ($modDir in $modDirs) {
     # run Arma 3 Tools PublisherCmd if mod has a workshop_id.txt file
     if (Test-Path "workshop_id.txt") {
         # read workshop id from file
-        $workshopId = Get-Content "workshop_id.txt"
+        $workshopId = Get-Content "steam\workshop_id.txt"
 
         Write-Host "Running Arma 3 Tools PublisherCmd for $($modDir.Name)"
         & $PublisherCMD update /id:$workshopId /path:.hemttout\release\ /changeNote:"automated release"

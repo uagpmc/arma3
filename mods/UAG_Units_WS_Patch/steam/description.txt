@@ -1,0 +1,27 @@
+[h1]What is this?[/h1]
+
+A supplementary patch for the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3263684880]UAG Units mod[/url], adding compatibility with the [url=https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/]Western Sahara Creator DLC[/url].
+
+[h1]What does it do?[/h1]
+
+This mod adds the following new content to the UAG Units mod:
+
+[list]
+    [*][b]UAGPMC PO-30 Orca UP:[/b] A UAGPMC-styled variant of the Russian "PO-30 Orca" armed helicopter outfitted with modern, lightweight armor plates to protect against incoming small arms fire.
+[/list]
+
+[h1]How do I use it?[/h1]
+
+This patch requires the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3263684880]UAG Units mod[/url] and the [url=https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/]Western Sahara Creator DLC[/url] to function.
+
+[h1]I found a bug! What do I do?[/h1]
+
+Please report any bugs or issues you encounter to the [url=https://github.com/uagpmc/arma3/issues]GitHub issue tracker[/url]. Be sure to include as much detail as possible, including any error messages or screenshots you can provide.
+
+[h1]How does this work? Can I contribute?[/h1]
+
+You can view the source code and contribute to the project on the [url=https://github.com/uagpmc/arma3/tree/main/mods/UAG_Units_WS_Patch]GitHub repository[/url].
+
+[h1]License[/h1]
+
+This patch is open-source and licensed under the [url=https://github.com/uagpmc/arma3/blob/main/LICENSE]Unlicense[/url], a license with no conditions whatsoever which dedicates works to the public domain. You are free to use, modify, and distribute this patch in any way you see fit.
