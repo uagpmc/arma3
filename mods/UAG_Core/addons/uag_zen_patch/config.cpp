@@ -17,13 +17,13 @@ class CfgFunctions {
     class UAG {
         class UAG {
             class createArsenal {
-                file = "\z\UAG_ZEN_Patch\addons\uag_zen_patch\functions\createArsenal.sqf";
+                file = "\z\UAG_Core\addons\uag_zen_patch\functions\createArsenal.sqf";
             };
             class applyLoadout {
-                file = "\z\UAG_ZEN_Patch\addons\uag_zen_patch\functions\applyLoadout.sqf";
+                file = "\z\UAG_Core\addons\uag_zen_patch\functions\applyLoadout.sqf";
             };
             class showLoadoutDialog {
-                file = "\z\UAG_ZEN_Patch\addons\uag_zen_patch\functions\showLoadoutDialog.sqf";
+                file = "\z\UAG_Core\addons\uag_zen_patch\functions\showLoadoutDialog.sqf";
             };
         };
     };
