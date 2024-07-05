@@ -11,39 +11,6 @@ class Header {
 	maxPlayers = 32;
 };
 
-class CfgFunctions
-{
-	class UAG {
-		class uag {
-			class loadout {};
-			class loadoutDialog {};
-			class createArsenal {};
-		};
-	};
-};
-
-class zen_context_menu_actions {
-    class GetGrid {
-        displayName = "Get Grid";
-		icon = "a3\ui_f\data\igui\cfg\simpletasks\types\map_ca.paa";
-        statement = "hint format ['Grid at cursor: %1', mapGridPosition _position];";
-        priority = 666;
-    };
-	class PlaceArsenal {
-		displayName = "Place Arsenal Box";
-		icon = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\handgun_ca.paa";
-		statement = "[_position] spawn uag_fnc_createArsenal;";
-		priority = 666;
-	};
-	class GiveLoadoutDialog {
-		displayName = "Give Loadout Dialog";
-		icon = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\handgun_ca.paa";
-		statement = "[] remoteExec ['uag_fnc_loadoutDialog', _hoveredEntity];";
-		priority = 666;
-		condition = "isPlayer _hoveredEntity";
-	};
-};
-
 respawn = "BASE";
 respawnButton = 0;
 respawnDelay = 60;

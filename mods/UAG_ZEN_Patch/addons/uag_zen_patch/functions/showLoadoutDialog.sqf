@@ -7,7 +7,7 @@
  * None
  *
  * Example:
- * 0 = ["UAG"] spawn uag_fnc_loadoutDialog;
+ * 0 = ["UAG"] spawn uag_fnc_showLoadoutDialog;
  */
  
 params ["_faction"];
@@ -22,7 +22,7 @@ _loadoutsPretty = [];
 	_loadoutsPretty pushBack (getText (configFile >> "CfgVehicles" >> _x >> "displayName"));
 } forEach _loadouts;
 
-0 = [
+[
 	// title
 	"UAG Loadouts System",
 	// content
@@ -42,7 +42,7 @@ _loadoutsPretty = [];
 
 		hint format ["Loading %1", _loadout];
 
-		0 = [player, _loadout] spawn uag_fnc_loadout;
+		[player, _loadout] spawn uag_fnc_applyLoadout;
 	},
 	// on cancel
 	{
