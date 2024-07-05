@@ -6,4 +6,4 @@
  */
 
 // spawn arsenal at respawn marker logic
-0 = [getPosASL respawn_logic] spawn uag_fnc_createArsenal;
+[getPosASL respawn_logic] spawn uag_fnc_createArsenal;

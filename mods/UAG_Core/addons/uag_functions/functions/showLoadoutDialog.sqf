@@ -1,7 +1,7 @@
 /* Spawns a dialog to select a loadout from a category
  *
  * Arguments:
- * 0: 
+ * 0: faction <STRING> - The faction class name to show loadouts for
  *
  * Return Value:
  * None
@@ -12,7 +12,13 @@
  
 params ["_faction"];
 
-if (isNil "_faction") then {_faction = "UAG";};
+if (isNil "_faction") then {
+	if (isClass (configFile >> "CfgPatches" >> "uag_units_core")) then {
+		_faction = "UAG";
+	} else {
+		_faction = "BLU_F";
+	};
+};
 
 _loadouts = ("(configname _x isKindOf 'Man') && (getText (_x >> 'faction') == '" + _faction + "')" configClasses (configFile >> "CfgVehicles")) apply {configName _x};
 

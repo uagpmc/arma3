@@ -4,28 +4,11 @@ class CfgPatches {
         authorUrl = "https://uagpmc.com";
         name = "uag_zen_patch";
         requiredAddons[] = {
-            "zen_common",
-            "uag_units_core"
+            "zen_common"
         };
         requiredVersion = 2.16;
         units[] = {};
         weapons[] = {};
-    };
-};
-
-class CfgFunctions {
-    class UAG {
-        class UAG {
-            class createArsenal {
-                file = "\z\UAG_Core\addons\uag_zen_patch\functions\createArsenal.sqf";
-            };
-            class applyLoadout {
-                file = "\z\UAG_Core\addons\uag_zen_patch\functions\applyLoadout.sqf";
-            };
-            class showLoadoutDialog {
-                file = "\z\UAG_Core\addons\uag_zen_patch\functions\showLoadoutDialog.sqf";
-            };
-        };
     };
 };
 
