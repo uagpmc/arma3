@@ -29,6 +29,9 @@ class CfgFunctions {
             class urlFetch {
                 file = "\z\UAG_Core\addons\uag_functions\functions\urlFetch.sqf";
             };
+            class setup_ace_arsenal_default_loadouts {
+                file = "\z\UAG_Core\addons\uag_functions\functions\setup_ace_arsenal_default_loadouts.sqf";
+            };
         };
     };
 };
