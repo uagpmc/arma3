@@ -1,8 +1,8 @@
 class CfgPatches {
-    class ace_ketamine {
+    class uag_ketamine {
         authors[] = {"zuedev", "fluffy"};
         authorUrl = "https://uagpmc.com";
-        name = "ace_ketamine";
+        name = "uag_ketamine";
         requiredAddons[] = {"ace_medical_treatment"};
         requiredVersion = 2.16;
         units[] = {};
