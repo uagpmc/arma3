@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 /*
  *	UAG_fnc_injectKetamine
  *	
