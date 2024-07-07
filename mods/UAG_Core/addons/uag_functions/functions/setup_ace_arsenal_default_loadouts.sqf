@@ -1,3 +1,17 @@
+/*
+    Description:
+	Adds the default loadouts to the ACE Arsenal.
+
+    Parameter(s):
+	None.
+
+    Returns:
+	Nothing.
+
+    Examples:
+	[] spawn uag_fnc_setup_ace_arsenal_default_loadouts;
+*/
+
 if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
 	_faction = "BLU_F";
 

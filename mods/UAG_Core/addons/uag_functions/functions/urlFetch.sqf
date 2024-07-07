@@ -1,19 +1,18 @@
-/* 
- * Sends a GET request to the specified URL and executes the specified script with the result.
- *
- * The script is passed the URL and the result as parameters, and the optional arguments.
- *
- * Arguments:
- * 0: url <STRING>
- * 1: script <CODE/STRING>
- * 2: args <ANY> (optional)
- *
- * Return Value:
- * None
- *
- * Example:
- * 0 = ["https://uagpmc.com/api", {systemChat format ["%1", _this]}] spawn uag_fnc_fetch;
- */
+/*
+    Description:
+	Sends a GET request to the specified URL and executes the specified script with the result.
+
+    Parameter(s):
+	Select 0 - STRING: The URL to send the GET request to.
+	Select 1 - CODE/STRING: The script to execute with the result.
+	Select 2 - ANY: The optional arguments to pass to the script.
+
+    Returns:
+	Nothing.
+
+    Examples:
+	["https://uagpmc.com/api", {systemChat format ["%1", _this]}] spawn uag_fnc_fetch;
+*/
 
 params ["_url", "_script", "_args"];
 

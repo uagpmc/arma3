@@ -1,16 +1,17 @@
 /*
- * Function to create an arsenal box and add the UAG Loadouts action to it
- *
- * Arguments:
- * 0: position <ARRAY> - The position to create the arsenal box at
- * 1: boxClass <STRING> - The class name of the box to create
- *
- * Return Value:
- * None
- *
- * Example:
- * 0 = [position player] spawn uag_fnc_createArsenal;
- */
+    Description:
+	Creates an arsenal box and adds the UAG Loadouts action to it.
+
+    Parameter(s):
+	Select 0 - ARRAY: The position to create the arsenal box at.
+	Select 1 - STRING: The class name of the box to create.
+
+    Returns:
+	Nothing.
+
+    Examples:
+	[position player] spawn uag_fnc_createArsenal;
+*/
 
 params ["_position", "_boxClass"];
 

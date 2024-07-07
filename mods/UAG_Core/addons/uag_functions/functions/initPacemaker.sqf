@@ -1,17 +1,16 @@
-/* 
- * Counteracts the negative side of ACE Medical unconsciousness by making the player wake up after a random amount of time.
- *
- * This is a temporary fix until UAG's ACE3 Medical module is released.
- *
- * Arguments:
- * None
- *
- * Return Value:
- * None
- *
- * Example:
- * 0 = [] spawn uag_fnc_initPacemaker;
- */
+/*
+    Description:
+	Creates a pacemaker that wakes up the player if they are unconscious.
+
+    Parameter(s):
+	None.
+
+    Returns:
+	Nothing.
+
+    Examples:
+	[] spawn uag_fnc_initPacemaker;
+*/
 
 [] spawn {
 	while {true} do {

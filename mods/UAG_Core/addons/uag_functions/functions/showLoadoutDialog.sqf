@@ -1,14 +1,16 @@
-/* Spawns a dialog to select a loadout from a category
- *
- * Arguments:
- * 0: faction <STRING> - The faction class name to show loadouts for
- *
- * Return Value:
- * None
- *
- * Example:
- * 0 = ["UAG"] spawn uag_fnc_showLoadoutDialog;
- */
+/*
+    Description:
+	Spawns a dialog to select a loadout from a category.
+
+    Parameter(s):
+	Select 0 - STRING: The faction class name to show loadouts for.
+
+    Returns:
+	Nothing.
+
+    Examples:
+	["UAG"] spawn uag_fnc_showLoadoutDialog;
+*/
  
 params ["_faction"];
 
