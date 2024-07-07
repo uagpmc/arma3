@@ -1,0 +1,29 @@
+[h1]What is this?[/h1]
+
+A mod that adds new units to Arma 3, specifically designed for use in UAGPMC operations.
+
+[h1]What does it do?[/h1]
+
+This mod adds the following to Arma 3:
+
+[list]
+    [*][b]UAGPMC Infantry:[/b] From riflemen to squad leaders, these units are equipped with modern weapons and gear to help them complete their missions whilst competing with any other conventional military force.
+    [*][b]UAGPMC Offroad:[/b] A light offroad vehicle used by UAGPMC forces for reconnaissance and transport duties.
+    [*][b]UAGPMC Wiesel:[/b] Coming in AT, AA, and Cannon variants, the UAGPMC Wiesel is a highly-mobile armored vehicle used by UAGPMC forces to bolster the firepower of their infantry.
+[/list]
+
+[h1]How do I use it?[/h1]
+
+This mod is designed to be used in UAGPMC operations, but can be used in any Arma 3 scenario. To use this mod, simply subscribe to it and enable it in the Arma 3 launcher.
+
+[h1]I found a bug! What do I do?[/h1]
+
+Please report any bugs or issues you encounter to the [url=https://github.com/uagpmc/arma3/issues]GitHub issue tracker[/url]. Be sure to include as much detail as possible, including any error messages or screenshots you can provide.
+
+[h1]How does this work? Can I contribute?[/h1]
+
+You can view the source code and contribute to the project on the [url=https://github.com/uagpmc/arma3/tree/main/mods/UAG_Units]GitHub repository[/url].
+
+[h1]License[/h1]
+
+This mod is open-source and licensed under the [url=https://github.com/uagpmc/arma3/blob/main/LICENSE]Unlicense[/url], a license with no conditions whatsoever which dedicates works to the public domain. You are free to use, modify, and distribute this mod in any way you see fit.

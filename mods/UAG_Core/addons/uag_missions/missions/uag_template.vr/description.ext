@@ -1,0 +1,21 @@
+author = "uagpmc.com";
+onLoadName = "Primary Session";
+onLoadMission = "Be careful with that butter knife!";
+loadScreen = "assets\loadScreen.jpg";
+overviewPicture = "assets\loadScreen.jpg";
+overviewText = "Be careful with that butter knife!";
+
+class Header {
+	gameType = "Sandbox";
+	minPlayers =  1;
+	maxPlayers = 32;
+};
+
+respawn = "BASE";
+respawnButton = 0;
+respawnDelay = 60;
+respawnDialog = 0;
+
+joinUnassigned = 1;
+skipLobby = 1;
+disabledAI = 1;

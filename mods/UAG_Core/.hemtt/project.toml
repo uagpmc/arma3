@@ -14,12 +14,15 @@ url = "https://github.com/uagpmc/arma3"
 
 [hemtt.launch.default]
 workshop = [
-    "2369477168", # Advanced Developer Tools Workshop ID
+    "2369477168", # Advanced Developer Tools
+    "450814997", # CBA_A3
+    "1779063631", # Zeus Enhanced
+    "3263684880", # UAG Units
 ]
 
 [hemtt.launch.ace]
 extends = "default"
 workshop = [
-    "450814997", # CBA_A3's Workshop ID
-    "463939057", # ACE3's Workshop ID
+    "463939057", # ACE3
+    "2018593688", # Zeus Enhanced - ACE3 Compatibility
 ]

@@ -1,5 +1,5 @@
-name = "ACE3 Ketamine"
-prefix = "ACE3_Ketamine"
+name = "UAG Ketamine"
+prefix = "UAG_Ketamine"
 mainprefix = "z"
 
 [version]
