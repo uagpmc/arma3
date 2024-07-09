@@ -18,9 +18,6 @@
 			// if ace is loaded, check if the player is unconscious and wake them up
 			if (isPlayer player && alive player && player getVariable ["ace_isUnconscious", false]) then {
 				[player, false, 0, true] call ace_medical_fnc_setUnconscious;
-
-				// reset the player's animation
-				[player, false] call ace_medical_engine_fnc_setUnconsciousAnim;
 			};
 		};
 		
