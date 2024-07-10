@@ -669,7 +669,7 @@ force tsp_cba_breach_reinforced = "[
 ""Land_Cargo_HQ_V3_F"",
 ""Land_Cargo_House_V3_F""
 ]";
-force tsp_cba_breach_vanilla = true;
+force tsp_cba_breach_vanilla = false;
 force tsp_cba_breach_wall_physics = true;
 force tsp_cba_breach_wall_velocity = "[0,0,-0.5]";
 
