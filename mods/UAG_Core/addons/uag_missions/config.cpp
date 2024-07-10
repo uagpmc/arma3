@@ -12,8 +12,11 @@ class CfgPatches {
 
 class CfgMissions {
     class MPMissions {
-        class uag_template {
-            directory = "\z\UAG_Core\addons\uag_missions\missions\uag_template.vr";
+        class uag_zeus_altis {
+            directory = "\z\UAG_Core\addons\uag_missions\missions\uag_zeus.altis";
+        };
+        class uag_zeus_yulakia {
+            directory = "\z\UAG_Core\addons\uag_missions\missions\uag_zeus.yulakia";
         };
     };
 };

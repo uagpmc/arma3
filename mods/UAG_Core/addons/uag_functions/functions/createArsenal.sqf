@@ -4,10 +4,10 @@
 
     Parameter(s):
 	Select 0 - ARRAY: The position to create the arsenal box at.
-	Select 1 - STRING: The class name of the box to create.
+	Select 1 - (OPTIONAL) STRING: The class name of the box to create.
 
     Returns:
-	Nothing.
+	OBJECT: The created arsenal box.
 
     Examples:
 	[position player] spawn uag_fnc_createArsenal;
@@ -46,3 +46,10 @@ if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
 	// use vanilla arsenal
 	["AmmoboxInit", [_arsenal, true]] call BIS_fnc_arsenal;
 };
+
+// try to set the position again before returning
+if (count _position == 3) then {
+	_arsenal setPosASL _position;
+};
+
+_arsenal
