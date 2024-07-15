@@ -284,7 +284,7 @@ force ace_nametags_showVehicleCrewInfo = false;
 
 // ACE Nightvision
 force ace_nightvision_aimDownSightsBlur = 1;
-force ace_nightvision_disableNVGsWithSights = true;
+force ace_nightvision_disableNVGsWithSights = false;
 force ace_nightvision_effectScaling = 1;
 force ace_nightvision_fogScaling = 1;
 force ace_nightvision_noiseScaling = 1;
