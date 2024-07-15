@@ -15,20 +15,20 @@ class CfgWeapons {
 
     class UAGPMC_pissIV: ACE_bloodIV {
         displayName = "Piss Bag (1000ml)";
-        picture = "\uagpmc_pissbags\pissiv.paa";
-        hiddenSelectionsTextures[] = {"\uagpmc_pissbags\Pissbag_ca.paa"};
+        picture = "\z\ACE3_Pissbags\addons\pissbags\pissiv.paa";
+        hiddenSelectionsTextures[] = {"\z\ACE3_Pissbags\addons\pissbags\Pissbag_ca.paa"};
     };
     
     class UAGPMC_pissIV_500: ACE_bloodIV_500 {
         displayName = "Piss Bag (500ml)";
-        picture = "\uagpmc_pissbags\pissiv.paa";
-        hiddenSelectionsTextures[] = {"\uagpmc_pissbags\Pissbag_ca.paa"};
+        picture = "\z\ACE3_Pissbags\addons\pissbags\pissiv.paa";
+        hiddenSelectionsTextures[] = {"\z\ACE3_Pissbags\addons\pissbags\Pissbag_ca.paa"};
     };
 
     class UAGPMC_pissIV_250: ACE_bloodIV_250 {
         displayName = "Piss Bag (250ml)";
-        picture = "\uagpmc_pissbags\pissiv.paa";
-        hiddenSelectionsTextures[] = {"\uagpmc_pissbags\Pissbag_ca.paa"};
+        picture = "\z\ACE3_Pissbags\addons\pissbags\pissiv.paa";
+        hiddenSelectionsTextures[] = {"\z\ACE3_Pissbags\addons\pissbags\Pissbag_ca.paa"};
     };
 };
 

@@ -13,7 +13,7 @@ class CfgWeapons {
     
     class UAGPMC_Capri_Sun: ACE_personalAidKit {
         displayName = "Capri Sun";
-        picture = "\caprisun\caprisun.paa";
+        picture = "\z\ACE3_Capri_Sun\addons\caprisun\caprisun.paa";
     };
 };
 
