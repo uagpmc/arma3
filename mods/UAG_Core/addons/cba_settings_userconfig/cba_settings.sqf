@@ -266,7 +266,7 @@ force ace_medical_treatment_woundStitchTime = 5;
 force ace_medical_vitals_simulateSpO2 = true;
 
 // ACE Medical Interface
-force ace_medical_gui_maxDistance = 1;
+force ace_medical_gui_maxDistance = 2;
 force ace_medical_gui_showBleeding = 2;
 force ace_medical_gui_showBloodlossEntry = true;
 force ace_medical_gui_showDamageEntry = true;
