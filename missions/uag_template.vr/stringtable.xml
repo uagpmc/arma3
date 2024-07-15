@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="UAG Mission Template">
+	<Package name="UAG">
+		<Container name="UAG">
+			<Key ID="STR_UAG_MissionName">
+				<Original>UAG Mission Template</Original>
+                <English>UAG Mission Template</English>
+				<Czech>Šablona mise UAG</Czech>
+				<French>Modèle de mission UAG</French>
+				<Spanish>Plantilla de misión de la UAG</Spanish>
+				<Italian>Modello di missione UAG</Italian>
+				<Polish>Szablon misji UAG</Polish>
+				<Portuguese>Modelo de Missão UAG</Portuguese>
+				<Russian>Шаблон миссии UAG</Russian>
+				<German>UAG-Missionsvorlage</German>
+				<Korean>UAG 임무 템플릿</Korean>
+				<Japanese>UAG ミッション テンプレート</Japanese>
+				<Turkish>UAG Görev Şablonu</Turkish>
+			</Key>
+            <Key ID="STR_UAG_MissionDescription">
+				<Original>Wouldn't it be funny if the mission maker didn't change this default description?</Original>
+                <English>Wouldn't it be funny if the mission maker didn't change this default description?</English>
+            </Key>
+            <Key ID="STR_UAG_MissionImagePath">
+                <Original>assets\loadScreen.jpg</Original>
+            </Key>
+            <Key ID="STR_UAG_MissionAuthor">
+                <Original>UAG Code Monkeys</Original>
+                <English>UAG Code Monkeys</English>
+            </Key>
+            <Key ID="STR_UAG_YouHaveDied">
+                <Original>You have died.</Original>
+				<English>You have died.</English>
+            </Key>
+            <Key ID="STR_UAG_YouWillRespawnInXSeconds">
+                <Original>You will respawn in %1 seconds...</Original>
+				<English>You will respawn in %1 seconds...</English>
+            </Key>
+		</Container>
+	</Package>
+</Project>

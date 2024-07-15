@@ -6,8 +6,28 @@ $PublisherCMD = "C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools\Publ
 # enter mods directory
 Push-Location "mods\"
 
-# get all mod subdirectories
-$modDirs = Get-ChildItem -Directory -Path .\ -Exclude .git
+# do we have an arg?
+if ($args.Length -eq 0) {
+    # no, so we'll just get all mod subdirectories
+    Write-Host "Running HEMTT Release and Arma 3 Tools PublisherCmd for all mods"
+    $modDirs = Get-ChildItem -Directory -Path .\ -Exclude .git
+} else {
+    # yes, so we'll get the mod subdirectory specified by the arg
+    Write-Host "Running HEMTT Release and Arma 3 Tools PublisherCmd for mod: $($args[0])"
+    $modDirs = dir -Filter $args[0] -Directory
+}
+
+# do we have any directories?
+if ($modDirs.Length -eq 0) {
+    # no, so we'll just exit
+    Write-Host "No mod directories found"
+    Pop-Location
+    return
+}
+
+# wait for user input to proceed
+Write-Host "Press any key to proceed..."
+$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
 
 # iterate over all mod directories
 foreach ($modDir in $modDirs) {

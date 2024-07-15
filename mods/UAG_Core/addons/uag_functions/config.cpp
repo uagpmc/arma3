@@ -33,6 +33,9 @@ class CfgFunctions {
                 file = "\z\UAG_Core\addons\uag_functions\functions\setup_ace_arsenal_default_loadouts.sqf";
                 postInit = 1;
             };
+            class createZeus {
+                file = "\z\UAG_Core\addons\uag_functions\functions\createZeus.sqf";
+            };
         };
     };
 };
