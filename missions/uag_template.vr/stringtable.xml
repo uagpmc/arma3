@@ -22,7 +22,7 @@
                 <English>Wouldn't it be funny if the mission maker didn't change this default description?</English>
             </Key>
             <Key ID="STR_UAG_MissionImagePath">
-                <Original>assets\loadScreen.jpg</Original>
+                <Original>loading.jpg</Original>
             </Key>
             <Key ID="STR_UAG_MissionAuthor">
                 <Original>UAG Code Monkeys</Original>
