@@ -1,4 +1,4 @@
-/* initPlayerLocal.sqf
+/* onPlayerKilled.sqf
  *
  * Executed when player is killed in singleplayer or in multiplayer mission.
  *
@@ -6,6 +6,14 @@
  */
  
 params ["_oldUnit", "_killer", "_respawn", "_respawnDelay"];
+
+// if initial spawn, do nothing
+if (isNil "UAG_initialSpawn") exitWith {
+	UAG_initialSpawn = true;
+	setPlayerRespawnTime 1;
+};
+
+setPlayerRespawnTime _respawnDelay;
 
 // if respawn is type 3 (or "BASE"), tell the player they will respawn in _respawnDelay seconds
 _youHaveDied = localize "STR_UAG_YouHaveDied";

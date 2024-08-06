@@ -3,15 +3,26 @@
 	<Package name="UAG">
 		<Container name="UAG">
 			<Key ID="STR_UAG_MissionName">
-				<Original>UAG Carrier Ops: Altis</Original>
-                <English>UAG Carrier Ops: Altis</English>
+				<Original>UAG Mission Template</Original>
+                <English>UAG Mission Template</English>
+				<Czech>Šablona mise UAG</Czech>
+				<French>Modèle de mission UAG</French>
+				<Spanish>Plantilla de misión de la UAG</Spanish>
+				<Italian>Modello di missione UAG</Italian>
+				<Polish>Szablon misji UAG</Polish>
+				<Portuguese>Modelo de Missão UAG</Portuguese>
+				<Russian>Шаблон миссии UAG</Russian>
+				<German>UAG-Missionsvorlage</German>
+				<Korean>UAG 임무 템플릿</Korean>
+				<Japanese>UAG ミッション テンプレート</Japanese>
+				<Turkish>UAG Görev Şablonu</Turkish>
 			</Key>
             <Key ID="STR_UAG_MissionDescription">
-				<Original>A UAG carrier arrives enters the region.</Original>
-				<English>A UAG carrier arrives enters the region.</English>
+				<Original>Wouldn't it be funny if the mission maker didn't change this default description?</Original>
+                <English>Wouldn't it be funny if the mission maker didn't change this default description?</English>
             </Key>
             <Key ID="STR_UAG_MissionImagePath">
-                <Original>assets\loadScreen.jpg</Original>
+                <Original>loading.jpg</Original>
             </Key>
             <Key ID="STR_UAG_MissionAuthor">
                 <Original>UAG Code Monkeys</Original>
