@@ -3,12 +3,12 @@
 	<Package name="UAG">
 		<Container name="UAG">
 			<Key ID="STR_UAG_MissionName">
-				<Original>UAG Zeus Op: Yulakia</Original>
-                <English>UAG Zeus Op: Yulakia</English>
+				<Original>UAG Carrier Ops: Yulakia</Original>
+                <English>UAG Carrier Ops: Yulakia</English>
 			</Key>
             <Key ID="STR_UAG_MissionDescription">
-				<Original>Do Zeus stuff on Yulakia.</Original>
-				<English>Do Zeus stuff on Yulakia.</English>
+				<Original>A UAG carrier arrives enters the region.</Original>
+				<English>A UAG carrier arrives enters the region.</English>
             </Key>
             <Key ID="STR_UAG_MissionImagePath">
                 <Original>assets\loadScreen.jpg</Original>

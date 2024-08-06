@@ -28,7 +28,6 @@ addons[]=
 {
 	"A3_Modules_F",
 	"uag_units_uag",
-	"uag_units_ace3_patch",
 	"A3_Boat_F_Jets_Carrier_01"
 };
 class AddonsMetaData
@@ -47,11 +46,6 @@ class AddonsMetaData
 		{
 			className="uag_units_uag";
 			name="uag_units_uag";
-		};
-		class Item2
-		{
-			className="uag_units_ace3_patch";
-			name="uag_units_ace3_patch";
 		};
 		class Item3
 		{

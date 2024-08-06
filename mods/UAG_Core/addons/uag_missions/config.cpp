@@ -12,11 +12,11 @@ class CfgPatches {
 
 class CfgMissions {
     class MPMissions {
-        class uag_zeus_altis {
-            directory = "z\UAG_Core\addons\uag_missions\missions\uag_zeus_altis.altis";
+        class uag_carrier_ops_altis {
+            directory = "z\UAG_Core\addons\uag_missions\missions\uag_carrier_ops_altis.altis";
         };
-        class uag_zeus_yulakia {
-            directory = "z\UAG_Core\addons\uag_missions\missions\uag_zeus_yulakia.yulakia";
+        class uag_carrier_ops_yulakia {
+            directory = "z\UAG_Core\addons\uag_missions\missions\uag_carrier_ops_yulakia.yulakia";
         };
     };
 };
