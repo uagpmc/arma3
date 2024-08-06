@@ -1,0 +1,35 @@
+author = "$STR_UAG_MissionAuthor";
+onLoadName = "$STR_UAG_MissionName";
+onLoadMission = "$STR_UAG_MissionDescription";
+loadScreen = "$STR_UAG_MissionImagePath";
+overviewPicture = "$STR_UAG_MissionImagePath";
+overviewText = "$STR_UAG_MissionDescription";
+
+class Header {
+	gameType = "Sandbox";
+	minPlayers =  1;
+	maxPlayers = 32;
+};
+
+respawn = "BASE";
+respawnButton = 0;
+respawnDelay = 60;
+respawnDialog = 0;
+respawnOnStart = 1;
+
+joinUnassigned = 1;
+skipLobby = 1;
+disabledAI = 1;
+
+class CfgDebriefing
+{
+	class singleplayer
+	{
+		title = "Singleplayer not supported";
+		subtitle = "Please join a multiplayer server to play this mission.";
+		description = "";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = { 0.0, 0.3, 0.6, 1 };
+	};
+};

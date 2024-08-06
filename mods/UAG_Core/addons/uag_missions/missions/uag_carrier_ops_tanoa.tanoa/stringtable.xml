@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="UAG Mission Template">
+	<Package name="UAG">
+		<Container name="UAG">
+			<Key ID="STR_UAG_MissionName">
+				<Original>UAG Carrier Op: Altis</Original>
+                <English>UAG Carrier Op: Altis</English>
+			</Key>
+            <Key ID="STR_UAG_MissionDescription">
+				<Original>UAG Carrier "Freedom" enters the region.</Original>
+				<English>UAG Carrier "Freedom" enters the region.</English>
+            </Key>
+            <Key ID="STR_UAG_MissionImagePath">
+                <Original>loadScreen.jpg</Original>
+            </Key>
+            <Key ID="STR_UAG_MissionAuthor">
+                <Original>UAG Code Monkeys</Original>
+                <English>UAG Code Monkeys</English>
+            </Key>
+            <Key ID="STR_UAG_YouHaveDied">
+                <Original>You have died.</Original>
+				<English>You have died.</English>
+            </Key>
+            <Key ID="STR_UAG_YouWillRespawnInXSeconds">
+                <Original>You will respawn in %1 seconds...</Original>
+				<English>You will respawn in %1 seconds...</English>
+            </Key>
+		</Container>
+	</Package>
+</Project>
