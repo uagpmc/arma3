@@ -1,7 +1,7 @@
 author = "$STR_UAG_MissionAuthor";
 onLoadName = "$STR_UAG_MissionName";
 onLoadMission = "$STR_UAG_MissionDescription";
-loadScreen = "$STR_UAG_MissionImagePath";
+loading = "$STR_UAG_MissionImagePath";
 overviewPicture = "$STR_UAG_MissionImagePath";
 overviewText = "$STR_UAG_MissionDescription";
 

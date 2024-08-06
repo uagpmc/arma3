@@ -11,7 +11,7 @@
 				<English>UAG Carrier "Freedom" enters the region.</English>
             </Key>
             <Key ID="STR_UAG_MissionImagePath">
-                <Original>loadScreen.jpg</Original>
+                <Original>loading.jpg</Original>
             </Key>
             <Key ID="STR_UAG_MissionAuthor">
                 <Original>UAG Code Monkeys</Original>
