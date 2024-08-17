@@ -39,6 +39,12 @@ If [url=https://steamcommunity.com/workshop/filedetails/?id=751965892]ACRE[/url]
     [*][b]ACRE Radio Items:[/b] UAG Units now come equipped with ACRE radios depending on their role.
 [/list]
 
+If [url=https://steamcommunity.com/workshop/filedetails/?id=2262006564]cTab 1erGTD[/url] is loaded, this mod also adds the following:
+
+[list]
+    [*][b]cTab Items:[/b] UAG Units now come equipped with cTab items.
+[/list]
+
 [h1]How do I use it?[/h1]
 
 This mod is designed to be used in UAGPMC operations, but can be used in any Arma 3 scenario. To use this mod, simply subscribe to it and enable it in the Arma 3 launcher.
