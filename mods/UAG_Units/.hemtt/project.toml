@@ -37,6 +37,7 @@ workshop = [
     "450814997", # CBA_A3's Workshop ID
     "463939057", # ACE3's Workshop ID
     "751965892", # ACRE's Workshop ID
+    "2262006564", # cTab's Workshop ID
 ]
 parameters = [
     "-mod=ws;rf;",
