@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=139;
+		nextID=141;
 	};
 	class MarkerIDProvider
 	{
@@ -16,25 +16,26 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4.9129272,8.100749,-6.6552091};
-		dir[]={-0.32590491,-0.30847338,0.89366668};
-		up[]={-0.1056882,0.95123351,0.28980818};
-		aside[]={0.93948489,-1.3532917e-07,0.3426137};
+		pos[]={15000.191,9.9304962,988.38507};
+		dir[]={-0.03012112,-0.35094059,-0.93596923};
+		up[]={-0.011315196,0.93606526,-0.35164109};
+		aside[]={-0.99953264,-5.875313e-07,0.032169081};
 	};
 };
 binarizationWanted=0;
-sourceName="uag_template";
+sourceName="uag_destroyer_ops_altis";
 addons[]=
 {
 	"A3_Modules_F",
 	"uag_units_uag",
-	"A3_Modules_F_Curator_Curator"
+	"A3_Modules_F_Curator_Curator",
+	"A3_Boat_F_Destroyer_Destroyer_01"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=3;
+		items=4;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -54,7 +55,18 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item3
+		{
+			className="A3_Boat_F_Destroyer";
+			name="Arma 3 Jets - Boats and Submersibles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
+};
+dlcs[]=
+{
+	"Jets"
 };
 randomSeed=7996323;
 class ScenarioData
@@ -345,17 +357,18 @@ class Mission
 	};
 	class Entities
 	{
-		items=27;
+		items=28;
 		class Item0
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={0,5,0};
+				position[]={15000.009,7.2692413,982.26978};
 			};
 			name="respawn_logic";
 			id=51;
 			type="Logic";
+			atlOffset=193.23924;
 		};
 		class Item1
 		{
@@ -372,7 +385,7 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayer=1;
@@ -380,6 +393,7 @@ class Mission
 					};
 					id=61;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -416,6 +430,7 @@ class Mission
 			{
 			};
 			id=60;
+			atlOffset=190.97;
 		};
 		class Item2
 		{
@@ -432,13 +447,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=63;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -475,6 +491,7 @@ class Mission
 			{
 			};
 			id=62;
+			atlOffset=190.97;
 		};
 		class Item3
 		{
@@ -491,13 +508,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=65;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -534,6 +552,7 @@ class Mission
 			{
 			};
 			id=64;
+			atlOffset=190.97;
 		};
 		class Item4
 		{
@@ -550,13 +569,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=67;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -593,6 +613,7 @@ class Mission
 			{
 			};
 			id=66;
+			atlOffset=190.97;
 		};
 		class Item5
 		{
@@ -609,13 +630,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=69;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -652,6 +674,7 @@ class Mission
 			{
 			};
 			id=68;
+			atlOffset=190.97;
 		};
 		class Item6
 		{
@@ -668,13 +691,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=71;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -711,6 +735,7 @@ class Mission
 			{
 			};
 			id=70;
+			atlOffset=190.97;
 		};
 		class Item7
 		{
@@ -727,13 +752,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=73;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -770,6 +796,7 @@ class Mission
 			{
 			};
 			id=72;
+			atlOffset=190.97;
 		};
 		class Item8
 		{
@@ -786,13 +813,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=77;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -829,6 +857,7 @@ class Mission
 			{
 			};
 			id=76;
+			atlOffset=190.97;
 		};
 		class Item9
 		{
@@ -845,13 +874,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=81;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -888,6 +918,7 @@ class Mission
 			{
 			};
 			id=80;
+			atlOffset=190.97;
 		};
 		class Item10
 		{
@@ -904,13 +935,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=83;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -947,6 +979,7 @@ class Mission
 			{
 			};
 			id=82;
+			atlOffset=190.97;
 		};
 		class Item11
 		{
@@ -963,13 +996,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=89;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1006,6 +1040,7 @@ class Mission
 			{
 			};
 			id=88;
+			atlOffset=190.97;
 		};
 		class Item12
 		{
@@ -1022,13 +1057,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=91;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1065,6 +1101,7 @@ class Mission
 			{
 			};
 			id=90;
+			atlOffset=190.97;
 		};
 		class Item13
 		{
@@ -1081,13 +1118,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=93;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1124,6 +1162,7 @@ class Mission
 			{
 			};
 			id=92;
+			atlOffset=190.97;
 		};
 		class Item14
 		{
@@ -1140,13 +1179,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=95;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1183,6 +1223,7 @@ class Mission
 			{
 			};
 			id=94;
+			atlOffset=190.97;
 		};
 		class Item15
 		{
@@ -1199,13 +1240,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=99;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1242,6 +1284,7 @@ class Mission
 			{
 			};
 			id=98;
+			atlOffset=190.97;
 		};
 		class Item16
 		{
@@ -1258,13 +1301,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=103;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1301,6 +1345,7 @@ class Mission
 			{
 			};
 			id=102;
+			atlOffset=190.97;
 		};
 		class Item17
 		{
@@ -1317,13 +1362,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=105;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1360,6 +1406,7 @@ class Mission
 			{
 			};
 			id=104;
+			atlOffset=190.97;
 		};
 		class Item18
 		{
@@ -1376,13 +1423,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=107;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1419,6 +1467,7 @@ class Mission
 			{
 			};
 			id=106;
+			atlOffset=190.97;
 		};
 		class Item19
 		{
@@ -1435,13 +1484,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=109;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1478,6 +1528,7 @@ class Mission
 			{
 			};
 			id=108;
+			atlOffset=190.97;
 		};
 		class Item20
 		{
@@ -1494,13 +1545,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=111;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1537,6 +1589,7 @@ class Mission
 			{
 			};
 			id=110;
+			atlOffset=190.97;
 		};
 		class Item21
 		{
@@ -1553,13 +1606,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=113;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1596,6 +1650,7 @@ class Mission
 			{
 			};
 			id=112;
+			atlOffset=190.97;
 		};
 		class Item22
 		{
@@ -1612,13 +1667,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=115;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1655,6 +1711,7 @@ class Mission
 			{
 			};
 			id=114;
+			atlOffset=190.97;
 		};
 		class Item23
 		{
@@ -1671,13 +1728,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=117;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1714,6 +1772,7 @@ class Mission
 			{
 			};
 			id=116;
+			atlOffset=190.97;
 		};
 		class Item24
 		{
@@ -1730,13 +1789,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=119;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1773,6 +1833,7 @@ class Mission
 			{
 			};
 			id=118;
+			atlOffset=190.97;
 		};
 		class Item25
 		{
@@ -1789,13 +1850,14 @@ class Mission
 						position[]={0,5.0014391,0.050000012};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayable=1;
 					};
 					id=121;
 					type="UAG_Contractor_Black_Splinter";
+					atlOffset=190.97;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1832,6 +1894,7 @@ class Mission
 			{
 			};
 			id=120;
+			atlOffset=190.97;
 		};
 		class Item26
 		{
@@ -1842,6 +1905,7 @@ class Mission
 			};
 			id=138;
 			type="ModuleCurator_F";
+			atlOffset=190.97;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1898,6 +1962,22 @@ class Mission
 				};
 				nAttributes=4;
 			};
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={15000,0,1000};
+				angles[]={0,3.1415927,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=140;
+			type="Land_Destroyer_01_base_F";
+			atlOffset=185.97;
 		};
 	};
 };

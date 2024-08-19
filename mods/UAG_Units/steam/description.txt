@@ -12,6 +12,39 @@ This mod adds the following to Arma 3:
     [*][b]UAGPMC Wiesel:[/b] Coming in AT, AA, and Cannon variants, the UAGPMC Wiesel is a highly-mobile armored vehicle used by UAGPMC forces to bolster the firepower of their infantry.
 [/list]
 
+[h2]What is this compatible with?[/h2]
+
+If [url=https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/]Reaction Forces Creator DLC[/url] is loaded, this mod also adds the following:
+
+[list]
+    [*][b]UAGPMC Cougar Gunship:[/b] A UAGPMC-styled variant of the LDF's "Cougar" armed utility helicopter. Upgraded with a full complement of advanced sensors and weapons, the Cougar Gunship is a versatile and deadly platform capable of providing close air support, reconnaissance, and transport capabilities.
+    [*][b]UAGPMC Moose Pickups:[/b] A set of UAGPMC-styled variants of the LDF's "Moose" light utility vehicle. These vehicles are lightly armored and armed with a variety of weapons, making them ideal for a range of operations. Each variant has an up-armoured version for use in more hostile environments.
+[/list]
+
+If [url=https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/]Western Sahara Creator DLC[/url] is loaded, this mod also adds the following:
+
+[list]
+    [*][b]UAGPMC PO-30 Orca UP:[/b] A UAGPMC-styled variant of the Russian "PO-30 Orca" armed helicopter outfitted with modern, lightweight armor plates to protect against incoming small arms fire.
+[/list]
+
+If [url=https://steamcommunity.com/workshop/filedetails/?id=463939057]ACE3[/url] is loaded, this mod also adds the following:
+
+[list]
+    [*][b]ACE Medical Items:[/b] UAG Units now use ACE medical items instead of vanilla medical items.
+[/list]
+
+If [url=https://steamcommunity.com/workshop/filedetails/?id=751965892]ACRE[/url] is loaded, this mod also adds the following:
+
+[list]
+    [*][b]ACRE Radio Items:[/b] UAG Units now come equipped with ACRE radios depending on their role.
+[/list]
+
+If [url=https://steamcommunity.com/workshop/filedetails/?id=2262006564]cTab 1erGTD[/url] is loaded, this mod also adds the following:
+
+[list]
+    [*][b]cTab Items:[/b] UAG Units now come equipped with cTab items.
+[/list]
+
 [h1]How do I use it?[/h1]
 
 This mod is designed to be used in UAGPMC operations, but can be used in any Arma 3 scenario. To use this mod, simply subscribe to it and enable it in the Arma 3 launcher.

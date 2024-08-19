@@ -291,8 +291,8 @@ force ace_nightvision_noiseScaling = 1;
 force ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
-force ace_overheating_cookoffCoef = 1;
-force ace_overheating_coolingCoef = 1;
+force ace_overheating_cookoffCoef = 2;
+force ace_overheating_coolingCoef = 2;
 force ace_overheating_displayTextOnJam = false;
 force ace_overheating_enabled = true;
 force ace_overheating_heatCoef = 1;
